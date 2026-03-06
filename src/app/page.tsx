@@ -1,5 +1,5 @@
-import CircleSearch from "@/components/CircleSearch";
+import { Header } from "@/components/Header";
 
 export default function Page() {
-  return <CircleSearch />;
+  return <Header />;
 }
