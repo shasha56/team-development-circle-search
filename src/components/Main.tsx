@@ -1,6 +1,6 @@
 import { SearchBox } from "@/components/SearchBox";
 import { CircleList } from "@/components/CircleList";
-import { MOCK_CIRCLES } from "@/mock/MockData";
+import { CIRCLES } from "@/data/circles";
 import { useState } from "react";
 
 const MOCK_POPULAR_TAGS = [
@@ -41,7 +41,7 @@ export const Main = () => {
         </div>
       </div>
       <CircleList
-        circles={MOCK_CIRCLES}
+        circles={CIRCLES}
         onTagClick={handleTagClick}
         SearchQuery={searchQuery}
       />
