@@ -7,7 +7,7 @@ type Props = {
   onSearch: (query: string) => void; // 親に検索クエリを渡すためのコールバック
 };
 
-export default function SearchBox({ onSearch }: Props) {
+export const SearchBox = ({ onSearch }: Props) => {
   // --- State ---
   const [inputValue, setInputValue] = useState(""); // 入力値を管理
 
@@ -47,4 +47,4 @@ export default function SearchBox({ onSearch }: Props) {
       </form>
     </search>
   );
-}
+};
