@@ -40,7 +40,7 @@ export const CircleList: React.FC<Props> = ({
         filteredCircles.map((circle) => (
           <div
             key={circle.id}
-            className="relative w-full sm:w-4/5 lg:w-[90%] min-h-28 sm:min-h-32 bg-white border border-black mx-auto my-5 flex items-center"
+            className="relative w-[98%] sm:w-4/5 lg:w-[90%] min-h-28 sm:min-h-32 bg-white border border-black mx-auto my-5 flex items-center"
           >
             {/* サークルアイコン */}
             <div className="relative shrink-0 ml-2.5 w-24 h-24 sm:w-28 sm:h-28">
