@@ -10,13 +10,18 @@ export const Header = () => {
           width={100}
           height={100}
           priority
+          className="md:h-16 md:w-16 w-12 h-12"
         />
       </div>
       <div className="text-center">
-        <h1 className="text-4xl font-bold pt-1 pb-1 mt-2 mb-1">
+        <h1
+          className="text-2xl font-bold pt-1 pb-1 mt-2 mb-1 md:text-4xl"
+          onClick={() => (window.location.href = "/")}
+          style={{ cursor: "pointer" }}
+        >
           横国 サーチる
         </h1>
-        <p className="text-sm text-black-100 pt-1 pb-1 mt-1 mb-2">
+        <p className="text-xs md:text-sm text-black-100 pt-1 pb-1 mt-1 mb-2">
           横国サークル検索サイト
         </p>
       </div>
