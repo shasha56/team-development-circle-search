@@ -53,12 +53,9 @@ export const CircleList: React.FC<Props> = ({
               />
             </div>
 
-            {/* テキスト・タグ・URL エリア */}
+            {/* タグ・URL エリア */}
             <div className="ml-5 flex flex-col gap-1 py-2">
               <p className="font-bold text-sm">{circle.name}</p>
-              {circle.description && (
-                <p className="text-xs text-gray-600"> {circle.description}</p>
-              )}
 
               {/* タグ */}
               <div className="flex flex-wrap gap-1">
