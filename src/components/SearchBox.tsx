@@ -36,11 +36,11 @@ export const SearchBox = ({ onSearch }: Props) => {
           id="search-box"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
-          className="w-64 md:w-96 bg-[#868686] text-white placeholder-white px-3 py-1 outline-none"
+          className="w-64 md:w-96 rounded-2xl bg-[#868686] text-white placeholder-white px-3 py-1 outline-none"
         />
         <button
           type="submit"
-          className="border border-black px-4 py-1 hover:bg-gray-200 transition-colors cursor-pointer"
+          className="border border-black rounded-2xl px-4 py-1 mr-1 hover:bg-gray-200 transition-colors cursor-pointer"
         >
           検索
         </button>
