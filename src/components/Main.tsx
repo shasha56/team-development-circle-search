@@ -22,7 +22,7 @@ export const Main = () => {
 
   return (
     <main>
-      <SearchBox onSearch={setSearchQuery} />
+      <SearchBox Value={searchQuery} onSearch={setSearchQuery} />
       {/* 人気タグ */}
       <div className="flex flex-row items-center justify-center gap-2 m-2">
         <p className="font-[1000] text-sm">人気検索＃タグ</p>

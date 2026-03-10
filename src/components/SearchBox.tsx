@@ -4,10 +4,11 @@ import { useState } from "react";
 import Image from "next/image";
 
 type Props = {
+  Value: string;
   onSearch: (query: string) => void; // 親に検索クエリを渡すためのコールバック
 };
 
-export const SearchBox = ({ onSearch }: Props) => {
+export const SearchBox = ({ Value, onSearch }: Props) => {
   // --- State ---
   const [inputValue, setInputValue] = useState(""); // 入力値を管理
 
@@ -15,6 +16,7 @@ export const SearchBox = ({ onSearch }: Props) => {
   const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault(); // フォーム送信のデフォルト動作を防ぐ
     onSearch(inputValue); // 入力値を検索クエリとして親に渡す
+    Value = inputValue; // 親から渡されたValueを更新
   };
 
   return (
@@ -34,7 +36,7 @@ export const SearchBox = ({ onSearch }: Props) => {
           name="search"
           placeholder="サーチる！"
           id="search-box"
-          value={inputValue}
+          value={Value}
           onChange={(e) => setInputValue(e.target.value)}
           className="w-64 md:w-96 rounded-2xl bg-[#868686] text-white placeholder-white px-3 py-1 outline-none"
         />
