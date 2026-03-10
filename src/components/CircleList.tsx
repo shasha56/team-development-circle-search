@@ -4,8 +4,8 @@ type Props = {
   circles: {
     id: number;
     name: string;
+    isOfficial: string;
     iconUrl: string;
-    description: string;
     tags: string[];
     twitterUrl: string;
     instagramUrl: string;
@@ -29,8 +29,8 @@ export const CircleList: React.FC<Props> = ({
     // 名前、説明、タグにクエリが含まれているかをチェック
     return (
       circle.name.includes(query) || // サークル名に含むか
-      circle.description.includes(query) || // 説明に含むか
-      circle.tags.some((tag) => tag.toLowerCase().includes(query)) // タグに含むか
+      circle.tags.some((tag) => tag.toLowerCase().includes(query)) || // タグに含むか
+      circle.isOfficial.includes(query) // 公式かどうかに含むか
     );
   });
 
