@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <footer className="relative w-full h-full bg-[#EEEEEE] flex items-center justify-center">
+    <footer className="relative w-full h-full bg-[#C0C0C0] flex items-center justify-center">
       <div className="text-center">
         <p className="text-xl mt-1 mb-1 md:text-2xl text-[#696969]">
           問い合わせに関しては、以下のメールアドレスまでご連絡ください。

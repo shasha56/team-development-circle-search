@@ -24,7 +24,7 @@ export const Main = () => {
     <main>
       <SearchBox Value={searchQuery} onSearch={setSearchQuery} />
       {/* 人気タグ */}
-      <div className="flex flex-row items-center justify-center gap-2 m-2">
+      <div className="flex flex-row items-center justify-center gap-2 p-2 bg-[#EEEEEE]">
         <p className="font-[1000] text-sm">人気検索＃タグ</p>
         <div className="flex flex-wrap justify-center gap-2">
           {MOCK_POPULAR_TAGS.map((tag) => (

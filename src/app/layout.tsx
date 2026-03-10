@@ -21,7 +21,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body className={`${notoSansJP.variable} font-sans`}>
+      <body
+        className={`${notoSansJP.variable} font-sans`}
+        style={{ backgroundColor: "#C0C0C0" }}
+      >
         {children}
         <Analytics />
       </body>
