@@ -23,14 +23,14 @@ export const SearchBox = ({ Value, onSearch }: Props) => {
     <search className="w-full bg-[#EEEEEE] flex flex-col items-center justify-center gap-2 py-4">
       {/* 検索フォーム */}
       <form onSubmit={handleSearch} className="flex gap-2">
-        <Image
+        {/* <Image
           src="/icon/hamburger_menu_icon.svg"
           alt="ハンバーガーメニューロゴ"
           width={50}
           height={50}
           priority
           className="cursor-pointer"
-        />
+        /> */}
         <input
           type="text"
           name="search"
