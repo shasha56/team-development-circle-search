@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 
 type Props = {
@@ -10,13 +10,17 @@ type Props = {
 
 export const SearchBox = ({ Value, onSearch }: Props) => {
   // --- State ---
-  const [inputValue, setInputValue] = useState(""); // 入力値を管理
+  const [inputValue, setInputValue] = useState(Value); // 入力値を管理
+
+  // --- 外部のValueが更新された場合のみinputValueを更新 ---
+  useEffect(() => {
+    setInputValue(Value);
+  }, [Value]);
 
   // --- 検索フォーム送信 ---
   const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault(); // フォーム送信のデフォルト動作を防ぐ
     onSearch(inputValue); // 入力値を検索クエリとして親に渡す
-    Value = inputValue; // 親から渡されたValueを更新
   };
 
   return (
@@ -36,7 +40,7 @@ export const SearchBox = ({ Value, onSearch }: Props) => {
           name="search"
           placeholder="サーチる！"
           id="search-box"
-          value={Value}
+          value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
           className="w-64 md:w-96 rounded-2xl bg-[#868686] text-white placeholder-white px-3 py-1 outline-none"
         />
