@@ -2,7 +2,7 @@ export const CIRCLES = [
   {
     id: 1,
     name: "アイスホッケー部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -34,7 +34,7 @@ export const CIRCLES = [
   {
     id: 2,
     name: "アメリカンフットボール部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -66,7 +66,7 @@ export const CIRCLES = [
   {
     id: 3,
     name: "男子硬式庭球部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -98,7 +98,7 @@ export const CIRCLES = [
   {
     id: 4,
     name: "女子硬式庭球部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -130,7 +130,7 @@ export const CIRCLES = [
   {
     id: 5,
     name: "硬式野球部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -162,7 +162,7 @@ export const CIRCLES = [
   {
     id: 6,
     name: "ゴルフ部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -194,7 +194,7 @@ export const CIRCLES = [
   {
     id: 7,
     name: "サッカー部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -226,7 +226,7 @@ export const CIRCLES = [
   {
     id: 8,
     name: "準硬式野球部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -258,7 +258,7 @@ export const CIRCLES = [
   {
     id: 9,
     name: "ソサイチ部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -290,7 +290,7 @@ export const CIRCLES = [
   {
     id: 10,
     name: "ソフトテニス部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -322,7 +322,7 @@ export const CIRCLES = [
   {
     id: 11,
     name: "卓球部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -354,7 +354,7 @@ export const CIRCLES = [
   {
     id: 12,
     name: "男子バスケットボール部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -386,7 +386,7 @@ export const CIRCLES = [
   {
     id: 13,
     name: "女子バスケットボール部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -418,7 +418,7 @@ export const CIRCLES = [
   {
     id: 14,
     name: "バドミントン部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -450,7 +450,7 @@ export const CIRCLES = [
   {
     id: 15,
     name: "男子バレーボール部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -482,7 +482,7 @@ export const CIRCLES = [
   {
     id: 16,
     name: "女子バレーボール部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -514,7 +514,7 @@ export const CIRCLES = [
   {
     id: 17,
     name: "ハンドボール部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -546,7 +546,7 @@ export const CIRCLES = [
   {
     id: 18,
     name: "ラグビー部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -578,7 +578,7 @@ export const CIRCLES = [
   {
     id: 19,
     name: "男子ラクロス部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -610,7 +610,7 @@ export const CIRCLES = [
   {
     id: 20,
     name: "女子ラクロス部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -642,7 +642,7 @@ export const CIRCLES = [
   {
     id: 21,
     name: "合気道部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -673,7 +673,7 @@ export const CIRCLES = [
   {
     id: 22,
     name: "空手道部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -705,7 +705,7 @@ export const CIRCLES = [
   {
     id: 23,
     name: "弓道部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -737,7 +737,7 @@ export const CIRCLES = [
   {
     id: 24,
     name: "剣道部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -769,7 +769,7 @@ export const CIRCLES = [
   {
     id: 25,
     name: "柔道部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -801,7 +801,7 @@ export const CIRCLES = [
   {
     id: 26,
     name: "少林寺拳法部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -833,7 +833,7 @@ export const CIRCLES = [
   {
     id: 27,
     name: "ボディビル部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -864,7 +864,7 @@ export const CIRCLES = [
   {
     id: 28,
     name: "ウインドサーフィン部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -896,7 +896,7 @@ export const CIRCLES = [
   {
     id: 29,
     name: "オリエンテーリング部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -928,7 +928,7 @@ export const CIRCLES = [
   {
     id: 30,
     name: "水泳部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -960,7 +960,7 @@ export const CIRCLES = [
   {
     id: 31,
     name: "トライアスロン部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -992,7 +992,7 @@ export const CIRCLES = [
   {
     id: 32,
     name: "陸上競技部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -1024,7 +1024,7 @@ export const CIRCLES = [
   {
     id: 33,
     name: "スキンスキューバダイビング部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -1056,7 +1056,7 @@ export const CIRCLES = [
   {
     id: 34,
     name: "ヨット部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -1088,7 +1088,7 @@ export const CIRCLES = [
   {
     id: 35,
     name: "体操競技部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -1120,7 +1120,7 @@ export const CIRCLES = [
   {
     id: 36,
     name: "山岳部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -1152,7 +1152,7 @@ export const CIRCLES = [
   {
     id: 37,
     name: "スキー部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -1184,7 +1184,7 @@ export const CIRCLES = [
   {
     id: 38,
     name: "ワンダーフォーゲル部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -1216,7 +1216,7 @@ export const CIRCLES = [
   {
     id: 39,
     name: "ハング・パラグライダー部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -1248,7 +1248,7 @@ export const CIRCLES = [
   {
     id: 40,
     name: "アルティメット部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -1280,7 +1280,7 @@ export const CIRCLES = [
   {
     id: 41,
     name: "横国キャップ野球チーム",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -1312,7 +1312,7 @@ export const CIRCLES = [
   {
     id: 42,
     name: "YNUCC",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -1344,7 +1344,7 @@ export const CIRCLES = [
   {
     id: 43,
     name: "フィギュアスケート部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -1376,7 +1376,7 @@ export const CIRCLES = [
   {
     id: 44,
     name: "アコースティックスタイル",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -1408,7 +1408,7 @@ export const CIRCLES = [
   {
     id: 45,
     name: "管弦楽団",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -1440,7 +1440,7 @@ export const CIRCLES = [
   {
     id: 46,
     name: "軽音楽部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -1472,7 +1472,7 @@ export const CIRCLES = [
   {
     id: 47,
     name: "吹奏楽団",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -1504,7 +1504,7 @@ export const CIRCLES = [
   {
     id: 48,
     name: "電子音楽研究会",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -1536,7 +1536,7 @@ export const CIRCLES = [
   {
     id: 49,
     name: "Baysound Jazz Orchestra",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -1568,7 +1568,7 @@ export const CIRCLES = [
   {
     id: 50,
     name: "邦楽研究会",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -1600,7 +1600,7 @@ export const CIRCLES = [
   {
     id: 51,
     name: "民謡研究会合唱団",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -1632,7 +1632,7 @@ export const CIRCLES = [
   {
     id: 52,
     name: "モダンジャズ研究会",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -1663,7 +1663,7 @@ export const CIRCLES = [
   {
     id: 53,
     name: "ロック研究会",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -1694,7 +1694,7 @@ export const CIRCLES = [
   {
     id: 54,
     name: "ロバートジョンソン研究会",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -1726,7 +1726,7 @@ export const CIRCLES = [
   {
     id: 55,
     name: "グリークラブ",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -1757,7 +1757,7 @@ export const CIRCLES = [
   {
     id: 56,
     name: "混声合唱団",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -1789,7 +1789,7 @@ export const CIRCLES = [
   {
     id: 57,
     name: "女声合唱団Dancing Dolphins",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -1821,7 +1821,7 @@ export const CIRCLES = [
   {
     id: 58,
     name: "Stairways",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -1853,7 +1853,7 @@ export const CIRCLES = [
   {
     id: 59,
     name: "囲碁部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -1884,7 +1884,7 @@ export const CIRCLES = [
   {
     id: 60,
     name: "競技かるたサークル",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -1916,7 +1916,7 @@ export const CIRCLES = [
   {
     id: 61,
     name: "クイズ研究会",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -1947,7 +1947,7 @@ export const CIRCLES = [
   {
     id: 62,
     name: "将棋サークル若葉会",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -1978,7 +1978,7 @@ export const CIRCLES = [
   {
     id: 63,
     name: "SCITEX",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2009,7 +2009,7 @@ export const CIRCLES = [
   {
     id: 64,
     name: "ポーカーサークル",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2040,7 +2040,7 @@ export const CIRCLES = [
   {
     id: 65,
     name: "麻雀部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2071,7 +2071,7 @@ export const CIRCLES = [
   {
     id: 66,
     name: "ルーガルー",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2103,7 +2103,7 @@ export const CIRCLES = [
   {
     id: 67,
     name: "茶道研究会",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2135,7 +2135,7 @@ export const CIRCLES = [
   {
     id: 68,
     name: "モダンダンス部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -2167,7 +2167,7 @@ export const CIRCLES = [
   {
     id: 69,
     name: "ダンスサークルLIZ",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -2199,7 +2199,7 @@ export const CIRCLES = [
   {
     id: 70,
     name: "KPOPダンスサークル popcorn",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -2231,7 +2231,7 @@ export const CIRCLES = [
   {
     id: 71,
     name: "映画研究部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2263,7 +2263,7 @@ export const CIRCLES = [
   {
     id: 72,
     name: "お笑いサークルわかば",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2295,7 +2295,7 @@ export const CIRCLES = [
   {
     id: 73,
     name: "劇団三日月座",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2327,7 +2327,7 @@ export const CIRCLES = [
   {
     id: 74,
     name: "写真部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2359,7 +2359,7 @@ export const CIRCLES = [
   {
     id: 75,
     name: "美術部EyeBrows",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2391,7 +2391,7 @@ export const CIRCLES = [
   {
     id: 76,
     name: "現代視覚文化研究会（げんしけん）",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2422,7 +2422,7 @@ export const CIRCLES = [
   {
     id: 77,
     name: "鉄道旅行研究会",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2454,7 +2454,7 @@ export const CIRCLES = [
   {
     id: 78,
     name: "読書サークル「こたけ」",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2484,7 +2484,7 @@ export const CIRCLES = [
   {
     id: 79,
     name: "大道芸ジャグリングサークル",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2514,7 +2514,7 @@ export const CIRCLES = [
   {
     id: 80,
     name: "YDK（横国ディズニーサークル）",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2546,7 +2546,7 @@ export const CIRCLES = [
   {
     id: 81,
     name: "漫画イラスト研究部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2578,7 +2578,7 @@ export const CIRCLES = [
   {
     id: 82,
     name: "横国うどん部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2608,7 +2608,7 @@ export const CIRCLES = [
   {
     id: 83,
     name: "新聞会",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2626,7 +2626,7 @@ export const CIRCLES = [
       "#執筆",
       "#インタビュー",
       "#調査",
-      "#公認団体",
+      "#届出団体",
       "#YNU",
       "#広報",
       "#キャンパスニュース",
@@ -2639,7 +2639,7 @@ export const CIRCLES = [
   {
     id: 84,
     name: "放送研究会",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2671,7 +2671,7 @@ export const CIRCLES = [
   {
     id: 85,
     name: "大学祭実行委員会",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2703,7 +2703,7 @@ export const CIRCLES = [
   {
     id: 86,
     name: "留学生支援団体105",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2724,7 +2724,7 @@ export const CIRCLES = [
       "#学内交流",
       "#英語",
       "#ボランティア",
-      "#公認団体",
+      "#届出団体",
       "#多文化",
     ],
     twitterUrl: "なし",
@@ -2734,7 +2734,7 @@ export const CIRCLES = [
   {
     id: 87,
     name: "YNU international students lounge",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2755,7 +2755,7 @@ export const CIRCLES = [
       "#学内交流",
       "#英語",
       "#ボランティア",
-      "#公認団体",
+      "#届出団体",
       "#多文化",
     ],
     twitterUrl:
@@ -2766,7 +2766,7 @@ export const CIRCLES = [
   {
     id: 88,
     name: "ESS",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2798,7 +2798,7 @@ export const CIRCLES = [
   {
     id: 89,
     name: "韓国人学生会",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2829,7 +2829,7 @@ export const CIRCLES = [
   {
     id: 90,
     name: "横濱会計會(YKK)",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2838,7 +2838,7 @@ export const CIRCLES = [
       "#横国",
       "#横濱会計會",
       "#会計",
-      "#公認会計士",
+      "#届出会計士",
       "#簿記",
       "#税理士",
       "#経済学部",
@@ -2861,7 +2861,7 @@ export const CIRCLES = [
   {
     id: 91,
     name: "YNU Capital",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2893,7 +2893,7 @@ export const CIRCLES = [
   {
     id: 92,
     name: "Founders Lab",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2924,7 +2924,7 @@ export const CIRCLES = [
   {
     id: 93,
     name: "国際問題研究会",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2955,7 +2955,7 @@ export const CIRCLES = [
   {
     id: 94,
     name: "YBC・YAC実行委員会",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -2987,7 +2987,7 @@ export const CIRCLES = [
   {
     id: 95,
     name: "キュリオシーズ",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3017,7 +3017,7 @@ export const CIRCLES = [
   {
     id: 96,
     name: "CORE",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3049,7 +3049,7 @@ export const CIRCLES = [
   {
     id: 97,
     name: "横浜AEROSPACE",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -3081,7 +3081,7 @@ export const CIRCLES = [
   {
     id: 98,
     name: "自動車部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -3112,7 +3112,7 @@ export const CIRCLES = [
   {
     id: 99,
     name: "フォーミュラプロジェクト",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3144,7 +3144,7 @@ export const CIRCLES = [
   {
     id: 100,
     name: "自作EV公道走行プロジェクト",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3174,7 +3174,7 @@ export const CIRCLES = [
   {
     id: 101,
     name: "Robo+ism",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3206,7 +3206,7 @@ export const CIRCLES = [
   {
     id: 102,
     name: "競技プログラミング部",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3237,7 +3237,7 @@ export const CIRCLES = [
   {
     id: 103,
     name: "Lumos",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3269,7 +3269,7 @@ export const CIRCLES = [
   {
     id: 104,
     name: "猫サークル",
-    isOfficial: "公認",
+    isOfficial: "届出",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3330,7 +3330,7 @@ export const CIRCLES = [
   {
     id: 106,
     name: "数学サークル（2023SNS最終更新）",
-    isOfficial: "非公認・活動不明",
+    isOfficial: "活動不明",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3361,7 +3361,7 @@ export const CIRCLES = [
   {
     id: 107,
     name: "短歌・詩サークルきりん",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3392,7 +3392,7 @@ export const CIRCLES = [
   {
     id: 108,
     name: "新聞会",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3423,7 +3423,7 @@ export const CIRCLES = [
   {
     id: 109,
     name: "横国学生団体En2（2024SNS最終更新）",
-    isOfficial: "非公認・活動不明",
+    isOfficial: "活動不明",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3454,7 +3454,7 @@ export const CIRCLES = [
   {
     id: 110,
     name: "フェンシング部（2023SNS最終更新）",
-    isOfficial: "非公認・活動不明",
+    isOfficial: "活動不明",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -3484,7 +3484,7 @@ export const CIRCLES = [
   {
     id: 111,
     name: "スポーツチャンバラ翔剣会",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -3515,7 +3515,7 @@ export const CIRCLES = [
   {
     id: 112,
     name: "Founders Lab",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3545,7 +3545,7 @@ export const CIRCLES = [
   {
     id: 113,
     name: "横国鍵盤サークル（2023SNS最終更新）",
-    isOfficial: "非公認・活動不明",
+    isOfficial: "活動不明",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3577,7 +3577,7 @@ export const CIRCLES = [
   {
     id: 114,
     name: "海外ボランティアサークルFUN（2023SNS最終更新）",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3609,7 +3609,7 @@ export const CIRCLES = [
   {
     id: 115,
     name: "EPDC部",
-    isOfficial: "非公認・活動不明",
+    isOfficial: "活動不明",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3639,7 +3639,7 @@ export const CIRCLES = [
   {
     id: 116,
     name: "浜Games",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3670,7 +3670,7 @@ export const CIRCLES = [
   {
     id: 117,
     name: "野球観戦サークル",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3701,7 +3701,7 @@ export const CIRCLES = [
   {
     id: 118,
     name: "横浜国大Esports(LoL)サークル（2024SNS最終更新）",
-    isOfficial: "非公認・活動不明",
+    isOfficial: "活動不明",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3731,7 +3731,7 @@ export const CIRCLES = [
   {
     id: 119,
     name: "【横国天体観測サークル】 CometComet",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3761,7 +3761,7 @@ export const CIRCLES = [
   {
     id: 120,
     name: "横国バレーボールサークルLunedì（ルネディ）",
-    isOfficial: "非公認・活動不明",
+    isOfficial: "活動不明",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -3791,7 +3791,7 @@ export const CIRCLES = [
   {
     id: 121,
     name: "横浜国立大学軟式野球サークル TIMEOUT",
-    isOfficial: "非公認・活動不明",
+    isOfficial: "活動不明",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -3821,7 +3821,7 @@ export const CIRCLES = [
   {
     id: 122,
     name: "Mariners",
-    isOfficial: "非公認・活動不明",
+    isOfficial: "活動不明",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -3851,7 +3851,7 @@ export const CIRCLES = [
   {
     id: 123,
     name: "横国B'zサークルBrotherhood",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3881,7 +3881,7 @@ export const CIRCLES = [
   {
     id: 124,
     name: "書道サークルSepia",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3911,7 +3911,7 @@ export const CIRCLES = [
   {
     id: 125,
     name: "競馬サークル｢frontier｣",
-    isOfficial: "非公認・活動不明",
+    isOfficial: "活動不明",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -3926,7 +3926,7 @@ export const CIRCLES = [
       "#馬券",
       "#競馬予想",
       "#競馬観戦",
-      "#公認サークル",
+      "#届出サークル",
       "#大学生活",
       "#交流",
       "#初心者歓迎",
@@ -3941,7 +3941,7 @@ export const CIRCLES = [
   {
     id: 126,
     name: "La Paume（ラポーム）",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -3971,7 +3971,7 @@ export const CIRCLES = [
   {
     id: 127,
     name: "Potato Chips(ポテトチップス) ",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -4001,7 +4001,7 @@ export const CIRCLES = [
   {
     id: 128,
     name: "横国バスケサークルJAM",
-    isOfficial: "非公認・活動不明",
+    isOfficial: "活動不明",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -4031,7 +4031,7 @@ export const CIRCLES = [
   {
     id: 129,
     name: "横国ハンドボールサークル",
-    isOfficial: "非公認・活動不明",
+    isOfficial: "活動不明",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -4061,7 +4061,7 @@ export const CIRCLES = [
   {
     id: 130,
     name: "横浜国立大学ミセスサークル",
-    isOfficial: "非公認・活動不明",
+    isOfficial: "活動不明",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -4091,7 +4091,7 @@ export const CIRCLES = [
   {
     id: 131,
     name: "横国放電同好会",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -4121,7 +4121,7 @@ export const CIRCLES = [
   {
     id: 132,
     name: "Étoile(エトワール)",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -4151,7 +4151,7 @@ export const CIRCLES = [
   {
     id: 133,
     name: "マジックサークルPlotters",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -4181,7 +4181,7 @@ export const CIRCLES = [
   {
     id: 134,
     name: "横国カラオケサークル",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -4211,7 +4211,7 @@ export const CIRCLES = [
   {
     id: 135,
     name: "寺社仏閣サークル 別雷",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -4241,7 +4241,7 @@ export const CIRCLES = [
   {
     id: 136,
     name: "ダンスサークルR3ude",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -4270,14 +4270,14 @@ export const CIRCLES = [
   },
   {
     id: 137,
-    name: "公認会計士・簿記サークル YKK(横浜会計会)",
-    isOfficial: "非公認",
+    name: "届出会計士・簿記サークル YKK(横浜会計会)",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#文化部",
       "#部員100-110人",
       "#インターカレッジ",
-      "#公認会計士",
+      "#届出会計士",
       "#簿記",
       "#資格試験",
       "#横浜国立大学",
@@ -4301,7 +4301,7 @@ export const CIRCLES = [
   {
     id: 138,
     name: "釣りサークル",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -4332,7 +4332,7 @@ export const CIRCLES = [
   {
     id: 139,
     name: "LavishRabbits(ラビラビ)",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -4363,7 +4363,7 @@ export const CIRCLES = [
   {
     id: 140,
     name: "MareProfondo",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -4393,7 +4393,7 @@ export const CIRCLES = [
   {
     id: 141,
     name: "coconuts",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -4423,7 +4423,7 @@ export const CIRCLES = [
   {
     id: 142,
     name: "横国サウナ&ラーメンサークル",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -4453,7 +4453,7 @@ export const CIRCLES = [
   {
     id: 143,
     name: "チャーリーブラウン",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -4483,7 +4483,7 @@ export const CIRCLES = [
   {
     id: 144,
     name: "横国 鎌女 フェリス テニスサークルapples",
-    isOfficial: "非公認・活動不明",
+    isOfficial: "活動不明",
     iconUrl: "",
     tags: [
       "#運動部",
@@ -4513,7 +4513,7 @@ export const CIRCLES = [
   {
     id: 145,
     name: "横国ダーツサークル【HighTon】",
-    isOfficial: "非公認・活動不明",
+    isOfficial: "活動不明",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -4543,7 +4543,7 @@ export const CIRCLES = [
   {
     id: 146,
     name: "横国漢検®︎サークル",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#文化部",
@@ -4573,7 +4573,7 @@ export const CIRCLES = [
   {
     id: 147,
     name: "横国マッチングサークル",
-    isOfficial: "非公認",
+    isOfficial: "",
     iconUrl: "",
     tags: [
       "#文化部",
