@@ -1,6 +1,7 @@
 import { SearchBox } from "@/components/SearchBox";
 import { CircleList } from "@/components/CircleList";
 import { CIRCLES } from "@/data/circles";
+import { AlertModal } from "@/components/AlertModal";
 import { useState } from "react";
 
 const MOCK_POPULAR_TAGS = [
@@ -22,6 +23,7 @@ export const Main = () => {
 
   return (
     <main>
+      <AlertModal />
       <SearchBox Value={searchQuery} onSearch={setSearchQuery} />
       {/* 人気タグ */}
       <div className="flex flex-row items-center justify-center gap-2 p-2 bg-[#EEEEEE]">
