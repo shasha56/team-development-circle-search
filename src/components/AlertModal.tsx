@@ -29,7 +29,7 @@ export const AlertModal = () => {
               タグに関しては生成AIを使用しているため、実際のサークルの情報とは異なる場合があります。
             </p>
             <p className="p-px">
-              問い合わせに関しては、以下のリンクの公式アカウントにDMしてください。
+              お問い合わせは、こちらのリンク先にある公式アカウントまでDMでお願いします！
             </p>
           </AlertDialogTitle>
           <AlertDialogDescription>
