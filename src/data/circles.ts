@@ -3300,35 +3300,6 @@ export const CIRCLES = [
   },
   {
     id: 105,
-    name: "dammy",
-    isOfficial: "",
-    iconUrl: "",
-    tags: [
-      "#1",
-      "#2",
-      "#3",
-      "#4",
-      "#5",
-      "#6",
-      "#7",
-      "#8",
-      "#9",
-      "#10",
-      "#11",
-      "#12",
-      "#13",
-      "#14",
-      "#15",
-      "#16",
-      "#17",
-      "#18",
-      "#19",
-    ],
-    twitterUrl: "",
-    instagramUrl: "",
-  },
-  {
-    id: 106,
     name: "数学サークル（2023SNS最終更新）",
     isOfficial: "活動不明",
     iconUrl: "",
@@ -3359,7 +3330,7 @@ export const CIRCLES = [
     instagramUrl: "なし",
   },
   {
-    id: 107,
+    id: 106,
     name: "短歌・詩サークルきりん",
     isOfficial: "",
     iconUrl: "",
@@ -3390,7 +3361,7 @@ export const CIRCLES = [
     instagramUrl: "なし",
   },
   {
-    id: 108,
+    id: 107,
     name: "新聞会",
     isOfficial: "",
     iconUrl: "",
@@ -3421,7 +3392,7 @@ export const CIRCLES = [
     instagramUrl: "なし",
   },
   {
-    id: 109,
+    id: 108,
     name: "横国学生団体En2（2024SNS最終更新）",
     isOfficial: "活動不明",
     iconUrl: "",
@@ -3452,7 +3423,7 @@ export const CIRCLES = [
     instagramUrl: "なし",
   },
   {
-    id: 110,
+    id: 109,
     name: "フェンシング部（2023SNS最終更新）",
     isOfficial: "活動不明",
     iconUrl: "",
@@ -3482,7 +3453,7 @@ export const CIRCLES = [
     instagramUrl: "なし",
   },
   {
-    id: 111,
+    id: 110,
     name: "スポーツチャンバラ翔剣会",
     isOfficial: "",
     iconUrl: "",
@@ -3513,7 +3484,7 @@ export const CIRCLES = [
       "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_shoken_spochan_2026/&ved=2ahUKEwiWj5X3so2TAxUbs1YBHb05DlUQFnoECCQQAQ&usg=AOvVaw1GAMCBYg-a6kcBWA4gPmGs",
   },
   {
-    id: 112,
+    id: 111,
     name: "Founders Lab",
     isOfficial: "",
     iconUrl: "",
@@ -3543,7 +3514,7 @@ export const CIRCLES = [
     instagramUrl: "https://www.instagram.com/ynu__kigyo/",
   },
   {
-    id: 113,
+    id: 112,
     name: "横国鍵盤サークル（2023SNS最終更新）",
     isOfficial: "活動不明",
     iconUrl: "",
@@ -3575,7 +3546,7 @@ export const CIRCLES = [
       "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_kenban/&ved=2ahUKEwjk5ov3tI2TAxWSFDQIHbCyAK0QFnoECBkQAQ&usg=AOvVaw2jjdcqp6LTdeadA6gcT9qB",
   },
   {
-    id: 114,
+    id: 113,
     name: "海外ボランティアサークルFUN（2023SNS最終更新）",
     isOfficial: "",
     iconUrl: "",
@@ -3607,7 +3578,7 @@ export const CIRCLES = [
       "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu.fun/&ved=2ahUKEwjOvvvMtY2TAxXzMjQIHXEWIngQFnoECB4QAQ&usg=AOvVaw1ySICYiFJ-Eamzp1-uINrz",
   },
   {
-    id: 115,
+    id: 114,
     name: "EPDC部",
     isOfficial: "活動不明",
     iconUrl: "",
@@ -3637,7 +3608,7 @@ export const CIRCLES = [
     instagramUrl: "なし",
   },
   {
-    id: 116,
+    id: 115,
     name: "浜Games",
     isOfficial: "",
     iconUrl: "",
@@ -3668,7 +3639,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 117,
+    id: 116,
     name: "野球観戦サークル",
     isOfficial: "",
     iconUrl: "",
@@ -3699,7 +3670,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 118,
+    id: 117,
     name: "横浜国大Esports(LoL)サークル（2024SNS最終更新）",
     isOfficial: "活動不明",
     iconUrl: "",
@@ -3729,7 +3700,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 119,
+    id: 118,
     name: "【横国天体観測サークル】 CometComet",
     isOfficial: "",
     iconUrl: "",
@@ -3759,7 +3730,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 120,
+    id: 119,
     name: "横国バレーボールサークルLunedì（ルネディ）",
     isOfficial: "活動不明",
     iconUrl: "",
@@ -3789,7 +3760,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 121,
+    id: 120,
     name: "横浜国立大学軟式野球サークル TIMEOUT",
     isOfficial: "活動不明",
     iconUrl: "",
@@ -3819,7 +3790,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 122,
+    id: 121,
     name: "Mariners",
     isOfficial: "活動不明",
     iconUrl: "",
@@ -3849,7 +3820,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 123,
+    id: 122,
     name: "横国B'zサークルBrotherhood",
     isOfficial: "",
     iconUrl: "",
@@ -3879,7 +3850,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 124,
+    id: 123,
     name: "書道サークルSepia",
     isOfficial: "",
     iconUrl: "",
@@ -3909,7 +3880,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 125,
+    id: 124,
     name: "競馬サークル｢frontier｣",
     isOfficial: "活動不明",
     iconUrl: "",
@@ -3939,7 +3910,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 126,
+    id: 125,
     name: "La Paume（ラポーム）",
     isOfficial: "",
     iconUrl: "",
@@ -3969,7 +3940,7 @@ export const CIRCLES = [
     instagramUrl: "https://www.instagram.com/lapaume_2025/",
   },
   {
-    id: 127,
+    id: 126,
     name: "Potato Chips(ポテトチップス) ",
     isOfficial: "",
     iconUrl: "",
@@ -3999,7 +3970,7 @@ export const CIRCLES = [
     instagramUrl: "https://www.instagram.com/potatochips_48th/",
   },
   {
-    id: 128,
+    id: 127,
     name: "横国バスケサークルJAM",
     isOfficial: "活動不明",
     iconUrl: "",
@@ -4029,7 +4000,7 @@ export const CIRCLES = [
     instagramUrl: "https://www.instagram.com/p/DVkBnMuk55n/",
   },
   {
-    id: 129,
+    id: 128,
     name: "横国ハンドボールサークル",
     isOfficial: "活動不明",
     iconUrl: "",
@@ -4059,7 +4030,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 130,
+    id: 129,
     name: "横浜国立大学ミセスサークル",
     isOfficial: "活動不明",
     iconUrl: "",
@@ -4089,7 +4060,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 131,
+    id: 130,
     name: "横国放電同好会",
     isOfficial: "",
     iconUrl: "",
@@ -4119,7 +4090,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 132,
+    id: 131,
     name: "Étoile(エトワール)",
     isOfficial: "",
     iconUrl: "",
@@ -4149,7 +4120,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 133,
+    id: 132,
     name: "マジックサークルPlotters",
     isOfficial: "",
     iconUrl: "",
@@ -4179,7 +4150,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 134,
+    id: 133,
     name: "横国カラオケサークル",
     isOfficial: "",
     iconUrl: "",
@@ -4209,7 +4180,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 135,
+    id: 134,
     name: "寺社仏閣サークル 別雷",
     isOfficial: "",
     iconUrl: "",
@@ -4239,7 +4210,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 136,
+    id: 135,
     name: "ダンスサークルR3ude",
     isOfficial: "",
     iconUrl: "",
@@ -4269,7 +4240,7 @@ export const CIRCLES = [
     instagramUrl: "https://www.instagram.com/r3ude_official/",
   },
   {
-    id: 137,
+    id: 136,
     name: "届出会計士・簿記サークル YKK(横浜会計会)",
     isOfficial: "",
     iconUrl: "",
@@ -4299,7 +4270,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 138,
+    id: 137,
     name: "釣りサークル",
     isOfficial: "",
     iconUrl: "",
@@ -4330,7 +4301,7 @@ export const CIRCLES = [
       "https://www.instagram.com/sakanasakana35?igsh=MWh4MmRtZ2Mwb21zcw%3D%3D&utm_source=qr",
   },
   {
-    id: 139,
+    id: 138,
     name: "LavishRabbits(ラビラビ)",
     isOfficial: "",
     iconUrl: "",
@@ -4361,7 +4332,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 140,
+    id: 139,
     name: "MareProfondo",
     isOfficial: "",
     iconUrl: "",
@@ -4391,7 +4362,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 141,
+    id: 140,
     name: "coconuts",
     isOfficial: "",
     iconUrl: "",
@@ -4421,7 +4392,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 142,
+    id: 141,
     name: "横国サウナ&ラーメンサークル",
     isOfficial: "",
     iconUrl: "",
@@ -4451,7 +4422,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 143,
+    id: 142,
     name: "チャーリーブラウン",
     isOfficial: "",
     iconUrl: "",
@@ -4481,7 +4452,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 144,
+    id: 143,
     name: "横国 鎌女 フェリス テニスサークルapples",
     isOfficial: "活動不明",
     iconUrl: "",
@@ -4511,7 +4482,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 145,
+    id: 144,
     name: "横国ダーツサークル【HighTon】",
     isOfficial: "活動不明",
     iconUrl: "",
@@ -4541,7 +4512,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 146,
+    id: 145,
     name: "横国漢検®︎サークル",
     isOfficial: "",
     iconUrl: "",
@@ -4571,7 +4542,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 147,
+    id: 146,
     name: "横国マッチングサークル",
     isOfficial: "",
     iconUrl: "",
@@ -4601,7 +4572,7 @@ export const CIRCLES = [
     instagramUrl: "",
   },
   {
-    id: 148,
+    id: 147,
     name: "横浜国立大学徳島県人会",
     isOfficial: "",
     iconUrl: "",
