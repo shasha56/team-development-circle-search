@@ -1,4 +1,6 @@
-export const CIRCLES = [
+import type { CircleSource } from "../types/circle";
+
+export const CIRCLES: CircleSource[] = [
   {
     id: 1,
     name: "アイスホッケー部",
@@ -26,10 +28,8 @@ export const CIRCLES = [
       "#スキー・スノボ好き",
       "#チームスポーツ",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/YNU_ICEHOCKEY&ved=2ahUKEwiGj_uXpouTAxVAdvUHHZNqH5cQFnoECBwQAQ&usg=AOvVaw1SHL_uCgitplMEV0oVaQMU",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_icehockey/%3Fhl%3Dja&ved=2ahUKEwiMtbiwnIWTAxX6lFYBHWS-OhcQFnoECCgQAQ&usg=AOvVaw3eqirhSrr74e_MgJdZ8gc4",
+    twitterUrl: "https://x.com/YNU_ICEHOCKEY",
+    instagramUrl: "https://www.instagram.com/ynu_icehockey/?hl=ja",
   },
   {
     id: 2,
@@ -58,10 +58,8 @@ export const CIRCLES = [
       "#チームワーク",
       "#本気で日本一",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/mastiffs_ynu&ved=2ahUKEwizmZizoYWTAxVZs1YBHa-1Ak8QFnoECB0QAQ&usg=AOvVaw0UBfyEiFfy8aaa_EQYQ0cY",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_mastiffs/&ved=2ahUKEwizmZizoYWTAxVZs1YBHa-1Ak8QFnoECB4QAQ&usg=AOvVaw0BQqTkxWIjl5S9X8OaWZH8",
+    twitterUrl: "https://x.com/mastiffs_ynu",
+    instagramUrl: "https://www.instagram.com/ynu_mastiffs/",
   },
   {
     id: 3,
@@ -90,10 +88,8 @@ export const CIRCLES = [
       "#横国",
       "#テニス部",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynutennisteam&ved=2ahUKEwjZoK_QooWTAxVXhlYBHcUfF0kQFnoECCQQAQ&usg=AOvVaw0ZCxM8W8SZcOyyHFOIxBjI",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynutennisteam/&ved=2ahUKEwjZoK_QooWTAxVXhlYBHcUfF0kQFnoECB0QAQ&usg=AOvVaw3Hf5TcpbCJsws26JicBso4",
+    twitterUrl: "https://x.com/ynutennisteam",
+    instagramUrl: "https://www.instagram.com/ynutennisteam/",
   },
   {
     id: 4,
@@ -122,10 +118,8 @@ export const CIRCLES = [
       "#オムニコート",
       "#チーム力",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynuwtennis&ved=2ahUKEwikrMH6ooWTAxUjsVYBHR3eFtAQFnoECB0QAQ&usg=AOvVaw0IF0WkF-hvBQSRFrPVm-Yr",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynuwtennis/&ved=2ahUKEwikrMH6ooWTAxUjsVYBHR3eFtAQFnoECB4QAQ&usg=AOvVaw2nrhvEgBYolSjcJvzc7e4j",
+    twitterUrl: "https://x.com/ynuwtennis",
+    instagramUrl: "https://www.instagram.com/ynuwtennis/",
   },
   {
     id: 5,
@@ -154,10 +148,8 @@ export const CIRCLES = [
       "#大学野球",
       "#チーム一丸",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_bbc&ved=2ahUKEwjGlq3so4WTAxVU0jQHHThAJNsQFnoECBQQAQ&usg=AOvVaw35HYBg7hhMGWTs2tvQXY38",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_bbc_official/&ved=2ahUKEwjGlq3so4WTAxVU0jQHHThAJNsQFnoECCcQAQ&usg=AOvVaw1OKbOK1Z5MGoBL1A2EeVVE",
+    twitterUrl: "https://x.com/ynu_bbc",
+    instagramUrl: "https://www.instagram.com/ynu_bbc_official/",
   },
   {
     id: 6,
@@ -186,10 +178,8 @@ export const CIRCLES = [
       "#昇格目標",
       "#チーム戦",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_golf&ved=2ahUKEwjpzPn0poWTAxVYs1YBHdVpNKoQFnoECBwQAQ&usg=AOvVaw2HNRalvRrAQZkGGbQ_c5bg",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/yngolf_official/%3Fhl%3Dja&ved=2ahUKEwiuifWPp4WTAxURtlYBHQpuOB0QFnoECBYQAQ&usg=AOvVaw05Tlz5ufMZOQOHt3vWmL5d",
+    twitterUrl: "https://x.com/ynu_golf",
+    instagramUrl: "https://www.instagram.com/yngolf_official/?hl=ja",
   },
   {
     id: 7,
@@ -218,10 +208,8 @@ export const CIRCLES = [
       "#ガチサッカー",
       "#チーム一丸",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynufc&ved=2ahUKEwjUlo6Vp4WTAxX4r1YBHRliITsQFnoECCsQAQ&usg=AOvVaw0b0IDdmYTEXZaxZdSV7V5F",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynufc/&ved=2ahUKEwjUlo6Vp4WTAxX4r1YBHRliITsQFnoECDMQAQ&usg=AOvVaw23J2Fi7Guu2ULmRnV6nwmp",
+    twitterUrl: "https://x.com/ynufc",
+    instagramUrl: "https://www.instagram.com/ynufc/",
   },
   {
     id: 8,
@@ -250,10 +238,8 @@ export const CIRCLES = [
       "#硬式経験者歓迎",
       "#チームワーク",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_junko&ved=2ahUKEwjf_ISap4WTAxVPr1YBHcwUA0YQFnoECCIQAQ&usg=AOvVaw3ImSFwoyxMnFFuD6VagIAK",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_junko/&ved=2ahUKEwjf_ISap4WTAxVPr1YBHcwUA0YQFnoECB4QAQ&usg=AOvVaw02PPE0VJRQ9vBSqH3AvRcB",
+    twitterUrl: "https://x.com/ynu_junko",
+    instagramUrl: "https://www.instagram.com/ynu_junko/",
   },
   {
     id: 9,
@@ -282,10 +268,8 @@ export const CIRCLES = [
       "#チームワーク",
       "#昇格目標",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/YNU_societyFC&ved=2ahUKEwigsPCdp4WTAxV6r1YBHcQJCtYQFnoECCIQAQ&usg=AOvVaw0exthRqWWXpWv1pAh7MJHe",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_societyfc/&ved=2ahUKEwigsPCdp4WTAxV6r1YBHcQJCtYQFnoECCYQAQ&usg=AOvVaw3oHUlbFQCHgMzsF-2RvXHq",
+    twitterUrl: "https://x.com/YNU_societyFC",
+    instagramUrl: "https://www.instagram.com/ynu_societyfc/",
   },
   {
     id: 10,
@@ -314,10 +298,8 @@ export const CIRCLES = [
       "#学連",
       "#チームワーク",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynusofttennis&ved=2ahUKEwiw7qahp4WTAxXa2jQHHQsnA_wQFnoECB4QAQ&usg=AOvVaw0v4JjXslJRFNrMqyoZzxbQ",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynusofttennis/&ved=2ahUKEwiw7qahp4WTAxXa2jQHHQsnA_wQFnoECCYQAQ&usg=AOvVaw2IRaSKFxClcR1gbaAa1Xug",
+    twitterUrl: "https://x.com/ynusofttennis",
+    instagramUrl: "https://www.instagram.com/ynusofttennis/",
   },
   {
     id: 11,
@@ -346,10 +328,8 @@ export const CIRCLES = [
       "#チーム戦",
       "#個人戦",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynuttc&ved=2ahUKEwj9_Nbrp4WTAxWKr1YBHZSjK1QQFnoECCMQAQ&usg=AOvVaw3HPM0QChMhErXmJBqPRTbW",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynuttc/&ved=2ahUKEwj9_Nbrp4WTAxWKr1YBHZSjK1QQFnoECCAQAQ&usg=AOvVaw00W_rEE2iWwLqy6583TE_i",
+    twitterUrl: "https://x.com/ynuttc",
+    instagramUrl: "https://www.instagram.com/ynuttc/",
   },
   {
     id: 12,
@@ -378,10 +358,8 @@ export const CIRCLES = [
       "#YNUism",
       "#チームワーク",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/YNUism&ved=2ahUKEwj0vbfxp4WTAxWoklYBHTr_BE4QFnoECCIQAQ&usg=AOvVaw0grzFiO74aSx3lyBzOxi_U",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynuttc/&ved=2ahUKEwj0vbfxp4WTAxWoklYBHTr_BE4QFnoECCAQAQ&usg=AOvVaw00W_rEE2iWwLqy6583TE_i",
+    twitterUrl: "https://x.com/YNUism",
+    instagramUrl: "https://www.instagram.com/ynuttc/",
   },
   {
     id: 13,
@@ -410,10 +388,8 @@ export const CIRCLES = [
       "#練習試合",
       "#朝練",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_girls_bbc&ved=2ahUKEwiS67D4p4WTAxWoklYBHTr_BE4QFnoECBwQAQ&usg=AOvVaw0HCJtH63d37e03ZfBJ_5W3",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_girls_bbc/&ved=2ahUKEwiS67D4p4WTAxWoklYBHTr_BE4QFnoECCgQAQ&usg=AOvVaw3tjmDlmPDg9c12JD4Hu_wo",
+    twitterUrl: "https://x.com/ynu_girls_bbc",
+    instagramUrl: "https://www.instagram.com/ynu_girls_bbc/",
   },
   {
     id: 14,
@@ -442,10 +418,8 @@ export const CIRCLES = [
       "#シャトル",
       "#チームワーク",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_bd&ved=2ahUKEwifxrj8p4WTAxX3sVYBHWyxBc8QFnoECBwQAQ&usg=AOvVaw1ytTV4aPv_PvW3WO4xmKlC",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_bad/&ved=2ahUKEwifxrj8p4WTAxX3sVYBHWyxBc8QFnoECB0QAQ&usg=AOvVaw15mnKa9lUkSBIP22k5pIV5",
+    twitterUrl: "https://x.com/ynu_bd",
+    instagramUrl: "https://www.instagram.com/ynu_bad/",
   },
   {
     id: 15,
@@ -474,10 +448,8 @@ export const CIRCLES = [
       "#チームワーク",
       "#アットホーム",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynuvbc&ved=2ahUKEwjl7oSCqIWTAxVIrVYBHQCnBkkQFnoECBsQAQ&usg=AOvVaw0SX-gLRLtM4pE1VFsHHiPv",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_volleyball_man/&ved=2ahUKEwjl7oSCqIWTAxVIrVYBHQCnBkkQFnoECB0QAQ&usg=AOvVaw0YXlFQ2Cn8H4e3WQKMA27O",
+    twitterUrl: "https://x.com/ynuvbc",
+    instagramUrl: "https://www.instagram.com/ynu_volleyball_man/",
   },
   {
     id: 16,
@@ -506,10 +478,8 @@ export const CIRCLES = [
       "#練習試合",
       "#朝練",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_volley&ved=2ahUKEwiTrKuFqIWTAxXQp1YBHSBLNFYQFnoECCIQAQ&usg=AOvVaw23T7RR6xMGG5um3F61WyVL",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_vbc/&ved=2ahUKEwiTrKuFqIWTAxXQp1YBHSBLNFYQFnoECCwQAQ&usg=AOvVaw1jZVwWIz4CXtKN6tKBS8HD",
+    twitterUrl: "https://x.com/ynu_volley",
+    instagramUrl: "https://www.instagram.com/ynu_vbc/",
   },
   {
     id: 17,
@@ -538,10 +508,8 @@ export const CIRCLES = [
       "#横国",
       "#チームワーク",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynuhandball&ved=2ahUKEwjWxJmJqIWTAxV61jQHHaWjCIMQFnoECBwQAQ&usg=AOvVaw0ycqnf0bG7o6m4EbwbI3ej",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynuhandball_official/&ved=2ahUKEwjWxJmJqIWTAxV61jQHHaWjCIMQFnoECB8QAQ&usg=AOvVaw0oiZ-fLGxQihLGbOvdZBP9",
+    twitterUrl: "https://x.com/ynuhandball",
+    instagramUrl: "https://www.instagram.com/ynuhandball_official/",
   },
   {
     id: 18,
@@ -570,10 +538,8 @@ export const CIRCLES = [
       "#YNURFC",
       "#ONE TEAM",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynurfc&ved=2ahUKEwiO8v-NqIWTAxWxs1YBHXKMBsUQFnoECB4QAQ&usg=AOvVaw22Yx-FCpXReGtYx10U8s2Z",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynurfc/&ved=2ahUKEwiO8v-NqIWTAxWxs1YBHXKMBsUQFnoECCIQAQ&usg=AOvVaw1THgFWp6JES20g_HoBLWaN",
+    twitterUrl: "https://x.com/ynurfc",
+    instagramUrl: "https://www.instagram.com/ynurfc/",
   },
   {
     id: 19,
@@ -602,10 +568,8 @@ export const CIRCLES = [
       "#チーム一丸",
       "#組織力",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/raptors_ynu&ved=2ahUKEwiflYOaqIWTAxWfklYBHV1bBWAQFnoECBwQAQ&usg=AOvVaw0Em5cc_cGi7orw31hRISSb",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/raptors_ynu/&ved=2ahUKEwiflYOaqIWTAxWfklYBHV1bBWAQFnoECCwQAQ&usg=AOvVaw3Vqeq7utzNALYVVQx2QhTK",
+    twitterUrl: "https://x.com/raptors_ynu",
+    instagramUrl: "https://www.instagram.com/raptors_ynu/",
   },
   {
     id: 20,
@@ -634,10 +598,8 @@ export const CIRCLES = [
       "#青春",
       "#組織力",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynugirlslax&ved=2ahUKEwjDn5CfqIWTAxWjsVYBHSJYBFEQFnoECCUQAQ&usg=AOvVaw0-pUUSNzX67REJmQ-Ds2km",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynugirlslax/&ved=2ahUKEwjDn5CfqIWTAxWjsVYBHSJYBFEQFnoECBwQAQ&usg=AOvVaw1SkTyFZz1NZzIAlje7aGZc",
+    twitterUrl: "https://x.com/ynugirlslax",
+    instagramUrl: "https://www.instagram.com/ynugirlslax/",
   },
   {
     id: 21,
@@ -666,9 +628,8 @@ export const CIRCLES = [
       "#運動習慣",
       "#大学から始める武道",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/aiki_ynu2025&ved=2ahUKEwiX-b21u4WTAxWnqFYBHcSbMRsQFnoECDMQAQ&usg=AOvVaw0bci3SBZ1WgOFp5y34tatv",
-    instagramUrl: "なし",
+    twitterUrl: "https://x.com/aiki_ynu2025",
+    instagramUrl: "",
   },
   {
     id: 22,
@@ -697,10 +658,8 @@ export const CIRCLES = [
       "#横国",
       "#精神修養",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/karate_ynu%3Flang%3Dja&ved=2ahUKEwjdwYfxu4WTAxUS5DQHHeKzCmcQFnoECB8QAQ&usg=AOvVaw0EmZ6KkmuO5I8Bed6LeLic",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu.karate/&ved=2ahUKEwjdwYfxu4WTAxUS5DQHHeKzCmcQFnoECB4QAQ&usg=AOvVaw1nt4ZI71K9IhhPoTMdm2a7",
+    twitterUrl: "https://x.com/karate_ynu?lang=ja",
+    instagramUrl: "https://www.instagram.com/ynu.karate/",
   },
   {
     id: 23,
@@ -729,10 +688,8 @@ export const CIRCLES = [
       "#射会",
       "#合宿",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_kyudo2025&ved=2ahUKEwi918j2u4WTAxUUqVYBHUrIB2MQFnoECBgQAQ&usg=AOvVaw2JuMyhzv0aQjUbrqYTDsbg",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynukyudo/&ved=2ahUKEwi918j2u4WTAxUUqVYBHUrIB2MQFnoECBoQAQ&usg=AOvVaw3Zc_pSZUs0tRdHEAo97qQQ",
+    twitterUrl: "https://x.com/ynu_kyudo2025",
+    instagramUrl: "https://www.instagram.com/ynukyudo/",
   },
   {
     id: 24,
@@ -761,10 +718,8 @@ export const CIRCLES = [
       "#精神修養",
       "#チームワーク",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_kendo&ved=2ahUKEwjg4v36u4WTAxXWqFYBHS-QE3EQFnoECCIQAQ&usg=AOvVaw1fNLNTDbWPYYMpiVa7kfdh",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/yokokoku_kendo/&ved=2ahUKEwjg4v36u4WTAxXWqFYBHS-QE3EQFnoECCQQAQ&usg=AOvVaw26Wc3It6x5CYaMj2BdQ7h9",
+    twitterUrl: "https://x.com/ynu_kendo",
+    instagramUrl: "https://www.instagram.com/yokokoku_kendo/",
   },
   {
     id: 25,
@@ -793,10 +748,8 @@ export const CIRCLES = [
       "#横国",
       "#精神修養",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/HamaYawara&ved=2ahUKEwjzvq-UvIWTAxVnqVYBHUCLNUkQFnoECB8QAQ&usg=AOvVaw31eiVUSExgvcBg_sstTplP",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_judo2025/&ved=2ahUKEwjzvq-UvIWTAxVnqVYBHUCLNUkQFnoECCgQAQ&usg=AOvVaw2aRDkTn4i-oV3ptTxXbzVt",
+    twitterUrl: "https://x.com/HamaYawara",
+    instagramUrl: "https://www.instagram.com/ynu_judo2025/",
   },
   {
     id: 26,
@@ -825,10 +778,8 @@ export const CIRCLES = [
       "#横国",
       "#精神修養",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynushorinji&ved=2ahUKEwjUs_SZvIWTAxXy2zQHHQ7BNDUQFnoECCQQAQ&usg=AOvVaw1ExiZkFs46PIfEDMpe3Gw-",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynushorinji/&ved=2ahUKEwjUs_SZvIWTAxXy2zQHHQ7BNDUQFnoECCUQAQ&usg=AOvVaw2jUb08YwWrW27MDDUvqGMU",
+    twitterUrl: "https://x.com/ynushorinji",
+    instagramUrl: "https://www.instagram.com/ynushorinji/",
   },
   {
     id: 27,
@@ -857,9 +808,8 @@ export const CIRCLES = [
       "#パワーリフティング",
       "#自己研鑽",
     ],
-    twitterUrl: "なし",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_bodybuilding/&ved=2ahUKEwiz1aWvvIWTAxUMr1YBHcLjOXMQFnoECCEQAQ&usg=AOvVaw0QOn9XTlUCxwbF2CinubKD",
+    twitterUrl: "",
+    instagramUrl: "https://www.instagram.com/ynu_bodybuilding/",
   },
   {
     id: 28,
@@ -888,10 +838,8 @@ export const CIRCLES = [
       "#海",
       "#青春",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_wind2026&ved=2ahUKEwjDsf_GvIWTAxUa0DQHHRAmPYMQFnoECCEQAQ&usg=AOvVaw1f_GfiG8t4TIt2aeOjeKfO",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu48_windsurfing/&ved=2ahUKEwjDsf_GvIWTAxUa0DQHHRAmPYMQFnoECCYQAQ&usg=AOvVaw2kMrBiYaRmwWrqhg1u4qc7",
+    twitterUrl: "https://x.com/ynu_wind2026",
+    instagramUrl: "https://www.instagram.com/ynu48_windsurfing/",
   },
   {
     id: 29,
@@ -920,10 +868,8 @@ export const CIRCLES = [
       "#森駆け",
       "#チームワーク",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynuolc_kolc&ved=2ahUKEwjnyMDevIWTAxVH0DQHHVUlNB8QFnoECBwQAQ&usg=AOvVaw2nXOw3I1b1HtwrOlM4eSAx",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynuolc_kolc/&ved=2ahUKEwjnyMDevIWTAxVH0DQHHVUlNB8QFnoECB0QAQ&usg=AOvVaw3ZYTlw5ODS1tjOkhHFlJmW",
+    twitterUrl: "https://x.com/ynuolc_kolc",
+    instagramUrl: "https://www.instagram.com/ynuolc_kolc/",
   },
   {
     id: 30,
@@ -952,10 +898,8 @@ export const CIRCLES = [
       "#チームワーク",
       "#選手募集",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/Ynuswim&ved=2ahUKEwiK5O7lvIWTAxWmrlYBHfFPL9kQFnoECDAQAQ&usg=AOvVaw2Aw-ksFoTyaLYfpsPxIZwb",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynust/&ved=2ahUKEwiK5O7lvIWTAxWmrlYBHfFPL9kQFnoECCkQAQ&usg=AOvVaw1rfpQTqmDoXKffBv_9rKtN",
+    twitterUrl: "https://x.com/Ynuswim",
+    instagramUrl: "https://www.instagram.com/ynust/",
   },
   {
     id: 31,
@@ -984,10 +928,8 @@ export const CIRCLES = [
       "#Perigo",
       "#限界突破",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_tri&ved=2ahUKEwj-g5rqvIWTAxXF0TQHHRMzJB0QFnoECBgQAQ&usg=AOvVaw2gqaVIFPNabnAEcKRmBecc",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/perigo_tri_yokohama/&ved=2ahUKEwj-g5rqvIWTAxXF0TQHHRMzJB0QFnoECBkQAQ&usg=AOvVaw0krQpfrNQFNWivKmYi8-ka",
+    twitterUrl: "https://x.com/ynu_tri",
+    instagramUrl: "https://www.instagram.com/perigo_tri_yokohama/",
   },
   {
     id: 32,
@@ -1016,10 +958,8 @@ export const CIRCLES = [
       "#横国",
       "#混成",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynutfc/status/1498243708642553865&ved=2ahUKEwjkuu7wvIWTAxUXsFYBHfTYB6MQFnoECB4QAQ&usg=AOvVaw0KL-8kzY8v7ub-1d43QMjF",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_track_and_field/%3Fhl%3Dja&ved=2ahUKEwjkuu7wvIWTAxUXsFYBHfTYB6MQFnoECCEQAQ&usg=AOvVaw3iN0M0W_Ddn772YaAr5LkD",
+    twitterUrl: "https://x.com/ynutfc/status/1498243708642553865",
+    instagramUrl: "https://www.instagram.com/ynu_track_and_field/?hl=ja",
   },
   {
     id: 33,
@@ -1048,10 +988,8 @@ export const CIRCLES = [
       "#横国",
       "#青春",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/sdc_yokokoku&ved=2ahUKEwi0tZ72vIWTAxX9slYBHeiHJ5wQFnoECCMQAQ&usg=AOvVaw3w0gMt1nePzximlSwsFEpO",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/p/DSPcpl8ErlF/&ved=2ahUKEwi0tZ72vIWTAxX9slYBHeiHJ5wQFnoECB0QAQ&usg=AOvVaw0X4QqGHt_AX2-QustSk5-K",
+    twitterUrl: "https://x.com/sdc_yokokoku",
+    instagramUrl: "https://www.instagram.com/p/DSPcpl8ErlF/",
   },
   {
     id: 34,
@@ -1080,10 +1018,8 @@ export const CIRCLES = [
       "#横国",
       "#チームワーク",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/good_omen_ynu&ved=2ahUKEwjB1ZOJvYWTAxVekVYBHUEDHNcQFnoECB8QAQ&usg=AOvVaw1V01CmKCVYruvW_G2Fk6mb",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_sailing_/&ved=2ahUKEwjB1ZOJvYWTAxVekVYBHUEDHNcQFnoECCQQAQ&usg=AOvVaw00Rl50FdVTUCfbpd96j-CT",
+    twitterUrl: "https://x.com/good_omen_ynu",
+    instagramUrl: "https://www.instagram.com/ynu_sailing_/",
   },
   {
     id: 35,
@@ -1112,10 +1048,8 @@ export const CIRCLES = [
       "#横国",
       "#自己研鑽",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_gym&ved=2ahUKEwiX_76NvYWTAxVsslYBHQMVKtEQFnoECBwQAQ&usg=AOvVaw18afWIFbauttRFnoYg_OKk",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_gymnastics/&ved=2ahUKEwiX_76NvYWTAxVsslYBHQMVKtEQFnoECCYQAQ&usg=AOvVaw2UPwtIwSNUrgG4MYd2jQQ6",
+    twitterUrl: "https://x.com/ynu_gym",
+    instagramUrl: "https://www.instagram.com/ynu_gymnastics/",
   },
   {
     id: 36,
@@ -1144,10 +1078,8 @@ export const CIRCLES = [
       "#横国",
       "#冒険",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/YNUAC_sangakubu&ved=2ahUKEwjJ-8yRvYWTAxX3slYBHWtgMVAQFnoECB0QAQ&usg=AOvVaw1f3NfzyPT6-te-SG3jw8Ll",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynuac_sangakubu/&ved=2ahUKEwjJ-8yRvYWTAxX3slYBHWtgMVAQFnoECCEQAQ&usg=AOvVaw2dID5GyCkgoPiHTK8umCJH",
+    twitterUrl: "https://x.com/YNUAC_sangakubu",
+    instagramUrl: "https://www.instagram.com/ynuac_sangakubu/",
   },
   {
     id: 37,
@@ -1176,10 +1108,8 @@ export const CIRCLES = [
       "#横国",
       "#チームワーク",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/YNU_RST&ved=2ahUKEwjx88GVvYWTAxUk7DQHHdcOEqwQFnoECB0QAQ&usg=AOvVaw0s7OTlNA4TEHlAIcZlQmq1",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_skiteam/&ved=2ahUKEwjx88GVvYWTAxUk7DQHHdcOEqwQFnoECCIQAQ&usg=AOvVaw0kwo0en6RRLJB15H5Qpp1C",
+    twitterUrl: "https://x.com/YNU_RST",
+    instagramUrl: "https://www.instagram.com/ynu_skiteam/",
   },
   {
     id: 38,
@@ -1208,10 +1138,8 @@ export const CIRCLES = [
       "#自然",
       "#旅",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynuwv&ved=2ahUKEwiO19iavYWTAxWIqVYBHR4DJP4QFnoECCIQAQ&usg=AOvVaw0ZJGG9DXgkawCsFhOkc4MP",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_wandervogel/%3Fhl%3Dja&ved=2ahUKEwiO19iavYWTAxWIqVYBHR4DJP4QFnoECC4QAQ&usg=AOvVaw2g88FFfTU4Ao3TDveq3M9J",
+    twitterUrl: "https://x.com/ynuwv",
+    instagramUrl: "https://www.instagram.com/ynu_wandervogel/?hl=ja",
   },
   {
     id: 39,
@@ -1240,10 +1168,8 @@ export const CIRCLES = [
       "#絶景",
       "#一生モノの趣味",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_hgpg_blog/status/2023233628940231056&ved=2ahUKEwickIGevYWTAxXnsVYBHYfYI78QFnoECCAQAQ&usg=AOvVaw1nvnH6ozTe-1GogUl3lnpi",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/p/DVHVU84E0wr/&ved=2ahUKEwickIGevYWTAxXnsVYBHYfYI78QFnoECCIQAQ&usg=AOvVaw2UHP7VIps4bsrbkeeIQ47X",
+    twitterUrl: "https://x.com/ynu_hgpg_blog/status/2023233628940231056",
+    instagramUrl: "https://www.instagram.com/p/DVHVU84E0wr/",
   },
   {
     id: 40,
@@ -1272,10 +1198,8 @@ export const CIRCLES = [
       "#青春",
       "#ダイブ",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/cougars_2026&ved=2ahUKEwik4ZSovYWTAxUXr1YBHYSAADwQFnoECDEQAQ&usg=AOvVaw2LAGNxMgesDnIZApgB5g_6",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_ultimate_cougars/&ved=2ahUKEwik4ZSovYWTAxUXr1YBHYSAADwQFnoECCIQAQ&usg=AOvVaw22MUNmCHOj0yAhACpJzJj9",
+    twitterUrl: "https://x.com/cougars_2026",
+    instagramUrl: "https://www.instagram.com/ynu_ultimate_cougars/",
   },
   {
     id: 41,
@@ -1304,10 +1228,8 @@ export const CIRCLES = [
       "#大学から始めるスポーツ",
       "#ゆる部活",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/beach_sounds&ved=2ahUKEwjF6vysvYWTAxUv2jQHHXa4A7oQFnoECCEQAQ&usg=AOvVaw2Bh--C38-2h2pPULmCILK5",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynucapbaseball/&ved=2ahUKEwjF6vysvYWTAxUv2jQHHXa4A7oQFnoECCcQAQ&usg=AOvVaw1TKJwf0hbzYC9RBSwJhv3x",
+    twitterUrl: "https://x.com/beach_sounds",
+    instagramUrl: "https://www.instagram.com/ynucapbaseball/",
   },
   {
     id: 42,
@@ -1336,10 +1258,8 @@ export const CIRCLES = [
       "#横国",
       "#青春",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynucc&ved=2ahUKEwir7-yyvYWTAxXb2jQHHZCZEbEQFnoECBYQAQ&usg=AOvVaw1ad3a4GxgXVMCS5ffHf4UB",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynucc_official/%3Fhl%3Dja&ved=2ahUKEwir7-yyvYWTAxXb2jQHHZCZEbEQFnoECCIQAQ&usg=AOvVaw2mf-I2bjwYH-lL4eesYBdo",
+    twitterUrl: "https://x.com/ynucc",
+    instagramUrl: "https://www.instagram.com/ynucc_official/?hl=ja",
   },
   {
     id: 43,
@@ -1368,10 +1288,8 @@ export const CIRCLES = [
       "#自己表現",
       "#チームワーク",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/figureskateynu&ved=2ahUKEwiPg7i2vYWTAxXorlYBHUYGFeEQFnoECCQQAQ&usg=AOvVaw1X9jQLd379GEsthFhJvbo8",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_figure_skating/&ved=2ahUKEwiPg7i2vYWTAxXorlYBHUYGFeEQFnoECCYQAQ&usg=AOvVaw1hbYo-vjz8a387D0ltsdsw",
+    twitterUrl: "https://x.com/figureskateynu",
+    instagramUrl: "https://www.instagram.com/ynu_figure_skating/",
   },
   {
     id: 44,
@@ -1400,10 +1318,8 @@ export const CIRCLES = [
       "#交流",
       "#春から横国",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/acoster_ynu&ved=2ahUKEwin-Zm6vYWTAxWIsFYBHRmdKIMQFnoECCgQAQ&usg=AOvVaw2qBotrygVR5oBGG0BavU0J",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynuacousticstyle/&ved=2ahUKEwin-Zm6vYWTAxWIsFYBHRmdKIMQFnoECCUQAQ&usg=AOvVaw3aM59cebzW5LWLbG9HfKyN",
+    twitterUrl: "https://x.com/acoster_ynu",
+    instagramUrl: "https://www.instagram.com/ynuacousticstyle/",
   },
   {
     id: 45,
@@ -1432,10 +1348,8 @@ export const CIRCLES = [
       "#打楽器",
       "#音楽好きと繋がりたい",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynuorch&ved=2ahUKEwiM58S9vYWTAxWVsVYBHU2gFBkQFnoECCQQAQ&usg=AOvVaw21XbdcRaL_21E9KhXZYhCv",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynuorch/&ved=2ahUKEwiM58S9vYWTAxWVsVYBHU2gFBkQFnoECB0QAQ&usg=AOvVaw1PGqiZGwdt58LRpPXJ7U0b",
+    twitterUrl: "https://x.com/ynuorch",
+    instagramUrl: "https://www.instagram.com/ynuorch/",
   },
   {
     id: 46,
@@ -1464,10 +1378,8 @@ export const CIRCLES = [
       "#音楽好きと繋がりたい",
       "#春から横国",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynukeion&ved=2ahUKEwiwx_vEvYWTAxWdklYBHSyIN9IQFnoECCcQAQ&usg=AOvVaw23EKpfoaG7RMMhl23oYL3C",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_keion2025/&ved=2ahUKEwiwx_vEvYWTAxWdklYBHSyIN9IQFnoECCUQAQ&usg=AOvVaw2sBfUo2ANmlH_GdOo9E5QU",
+    twitterUrl: "https://x.com/ynukeion",
+    instagramUrl: "https://www.instagram.com/ynu_keion2025/",
   },
   {
     id: 47,
@@ -1496,10 +1408,8 @@ export const CIRCLES = [
       "#大学生活",
       "#春から横国",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynusb_main&ved=2ahUKEwjP6afKvYWTAxXmqFYBHTTtMZIQFnoECCIQAQ&usg=AOvVaw3xXDcTvbAIJtMoLaqSIEke",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynusb_main/&ved=2ahUKEwjP6afKvYWTAxXmqFYBHTTtMZIQFnoECCEQAQ&usg=AOvVaw39XvdaBreK6llVVIYbCwjI",
+    twitterUrl: "https://x.com/ynusb_main",
+    instagramUrl: "https://www.instagram.com/ynusb_main/",
   },
   {
     id: 48,
@@ -1528,10 +1438,8 @@ export const CIRCLES = [
       "#学園祭",
       "#春から横国",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/Bon9ra_YNU&ved=2ahUKEwjc1fnNvYWTAxUEs1YBHSPdCR4QFnoECCkQAQ&usg=AOvVaw2ZJ0kovNoaPMENmGcdP2H3",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/bon9ra_ynu/&ved=2ahUKEwjc1fnNvYWTAxUEs1YBHSPdCR4QFnoECCEQAQ&usg=AOvVaw0QeV_xJqO7Emda7IprSjfB",
+    twitterUrl: "https://x.com/Bon9ra_YNU",
+    instagramUrl: "https://www.instagram.com/bon9ra_ynu/",
   },
   {
     id: 49,
@@ -1560,10 +1468,8 @@ export const CIRCLES = [
       "#演奏会",
       "#楽器",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_baysound25&ved=2ahUKEwigiLHTvYWTAxUUsFYBHUcFOh8QFnoECB8QAQ&usg=AOvVaw1fmqfrwzTmCwutV7lobMmW",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/bjo_shinkan_2025/&ved=2ahUKEwigiLHTvYWTAxUUsFYBHUcFOh8QFnoECCMQAQ&usg=AOvVaw2do5dAHI3Tn9kocKnFFd7g",
+    twitterUrl: "https://x.com/ynu_baysound25",
+    instagramUrl: "https://www.instagram.com/bjo_shinkan_2025/",
   },
   {
     id: 50,
@@ -1592,10 +1498,8 @@ export const CIRCLES = [
       "#キャンパスライフ",
       "#芸術",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_houken&ved=2ahUKEwi-2v7XvYWTAxWOzjQHHcjsCpgQFnoECC4QAQ&usg=AOvVaw1Vf9NGPhbaXj_QZoOC8qxK",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/minken_official/&ved=2ahUKEwi-2v7XvYWTAxWOzjQHHcjsCpgQFnoECCsQAQ&usg=AOvVaw2GKuKowjkvThGeyvxUPEa5",
+    twitterUrl: "https://x.com/ynu_houken",
+    instagramUrl: "https://www.instagram.com/minken_official/",
   },
   {
     id: 51,
@@ -1624,10 +1528,8 @@ export const CIRCLES = [
       "#音楽サークル",
       "#キャンパスライフ",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/mkg_official&ved=2ahUKEwji067nvYWTAxWJrlYBHQFoAU8QFnoECCIQAQ&usg=AOvVaw3SQutqQTyv27Dt7fztb66g",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/minken_official/&ved=2ahUKEwi-2v7XvYWTAxWOzjQHHcjsCpgQFnoECCsQAQ&usg=AOvVaw2GKuKowjkvThGeyvxUPEa5",
+    twitterUrl: "https://x.com/mkg_official",
+    instagramUrl: "https://www.instagram.com/minken_official/",
   },
   {
     id: 52,
@@ -1656,9 +1558,8 @@ export const CIRCLES = [
       "#常盤祭",
       "#音楽サークル",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynujazz&ved=2ahUKEwj4tfjuvYWTAxVI0DQHHXZ9JdQQFnoECCAQAQ&usg=AOvVaw1iv68B5jFh6TWc1EAgkL87",
-    instagramUrl: "なし",
+    twitterUrl: "https://x.com/ynujazz",
+    instagramUrl: "",
   },
   {
     id: 53,
@@ -1687,9 +1588,8 @@ export const CIRCLES = [
       "#常盤祭",
       "#キャンパスライフ",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_rocklab&ved=2ahUKEwjRo_OjvoWTAxXzsFYBHe_BJEIQFnoECCgQAQ&usg=AOvVaw0Msk9chgSeMdYG8oMs9Xgu",
-    instagramUrl: "なし",
+    twitterUrl: "https://x.com/ynu_rocklab",
+    instagramUrl: "",
   },
   {
     id: 54,
@@ -1718,10 +1618,8 @@ export const CIRCLES = [
       "#キャンパスライフ",
       "#友達作り",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/RJ_LAB_YNU&ved=2ahUKEwj7vt-yvoWTAxVUulYBHZiZBBwQFnoECCUQAQ&usg=AOvVaw3-ezGf3hYX-jRCouRmo6Gb",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/rj_lab_ynu/&ved=2ahUKEwivqJ-5voWTAxWt2TQHHVF_K-UQFnoECCgQAQ&usg=AOvVaw1OSBvfYUojt_hssAp6racp",
+    twitterUrl: "https://x.com/RJ_LAB_YNU",
+    instagramUrl: "https://www.instagram.com/rj_lab_ynu/",
   },
   {
     id: 55,
@@ -1750,8 +1648,7 @@ export const CIRCLES = [
       "#友達作り",
       "#伝統",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_glee&ved=2ahUKEwjRtoW8voWTAxVl3zQHHdyhJc4QFnoECCMQAQ&usg=AOvVaw1QaZU_ORZN_Yo5hlvcyC3l",
+    twitterUrl: "https://x.com/ynu_glee",
     instagramUrl: "https://www.instagram.com/ynuglee.25?igsh=YzF5cGxxd2lxZTIx",
   },
   {
@@ -1781,10 +1678,8 @@ export const CIRCLES = [
       "#友達作り",
       "#芸術",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynukonsei&ved=2ahUKEwj159Pwv4WTAxUBgFYBHTk5BUoQFnoECCMQAQ&usg=AOvVaw020xhgH_EwSfUAGJ5SlRfZ",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynukonsei/&ved=2ahUKEwj159Pwv4WTAxUBgFYBHTk5BUoQFnoECCQQAQ&usg=AOvVaw1yJkWk7PqB8Z2d1EQzXiQu",
+    twitterUrl: "https://x.com/ynukonsei",
+    instagramUrl: "https://www.instagram.com/ynukonsei/",
   },
   {
     id: 57,
@@ -1813,10 +1708,8 @@ export const CIRCLES = [
       "#友達作り",
       "#芸術",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/YNU_girls_sing&ved=2ahUKEwiQj6f0v4WTAxUysVYBHZnnA24QFnoECB8QAQ&usg=AOvVaw0MBIk_rrLs-N37UmWxIja1",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_girls_sing/&ved=2ahUKEwiQj6f0v4WTAxUysVYBHZnnA24QFnoECCcQAQ&usg=AOvVaw27NBtnb6FI7z6ehnbmp6e0",
+    twitterUrl: "https://x.com/YNU_girls_sing",
+    instagramUrl: "https://www.instagram.com/ynu_girls_sing/",
   },
   {
     id: 58,
@@ -1845,10 +1738,8 @@ export const CIRCLES = [
       "#友達作り",
       "#青春",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/stair_ways/status/1647865892133572609&ved=2ahUKEwjAisX5v4WTAxXSh1YBHeW6A8sQFnoECCAQAQ&usg=AOvVaw1lg0KYVR_mS5Yhae5omqpu",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/stair_shinkan/&ved=2ahUKEwjAisX5v4WTAxXSh1YBHeW6A8sQFnoECB0QAQ&usg=AOvVaw2vM1ePIXX99jGQIYbRkgOO",
+    twitterUrl: "https://x.com/stair_ways/status/1647865892133572609",
+    instagramUrl: "https://www.instagram.com/stair_shinkan/",
   },
   {
     id: 59,
@@ -1877,9 +1768,8 @@ export const CIRCLES = [
       "#友達作り",
       "#交流会",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_igobu&ved=2ahUKEwjxgrSCwIWTAxVJsFYBHZZnNTsQFnoECCYQAQ&usg=AOvVaw2ysRbyXnRluedWGrdl5cyF",
-    instagramUrl: "なし",
+    twitterUrl: "https://x.com/ynu_igobu",
+    instagramUrl: "",
   },
   {
     id: 60,
@@ -1908,10 +1798,8 @@ export const CIRCLES = [
       "#キャンパスライフ",
       "#友達作り",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/YNUkaruta&ved=2ahUKEwif5LSSwIWTAxXFslYBHctdAJQQFnoECCIQAQ&usg=AOvVaw0xlQk6yQvkBMoI4sZyu7ID",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_karuta/&ved=2ahUKEwif5LSSwIWTAxXFslYBHctdAJQQFnoECCsQAQ&usg=AOvVaw2vXBqSNlOQWo6G4FDkkaye",
+    twitterUrl: "https://x.com/YNUkaruta",
+    instagramUrl: "https://www.instagram.com/ynu_karuta/",
   },
   {
     id: 61,
@@ -1940,9 +1828,8 @@ export const CIRCLES = [
       "#友達作り",
       "#思考力",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/YNUquiz&ved=2ahUKEwjnn6mVwIWTAxWmqFYBHb4bFvoQFnoECCcQAQ&usg=AOvVaw26lH52xA443saSvuT4gL-K",
-    instagramUrl: "なし",
+    twitterUrl: "https://x.com/YNUquiz",
+    instagramUrl: "",
   },
   {
     id: 62,
@@ -1971,9 +1858,8 @@ export const CIRCLES = [
       "#学生将棋",
       "#棋道",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/shogi_YNU&ved=2ahUKEwilr-O8wIWTAxUF4zQHHd_AMjoQFnoECCYQAQ&usg=AOvVaw23CuLLb_Sg8-DjyLXjMNeU",
-    instagramUrl: "なし",
+    twitterUrl: "https://x.com/shogi_YNU",
+    instagramUrl: "",
   },
   {
     id: 63,
@@ -2002,9 +1888,8 @@ export const CIRCLES = [
       "#友達作り",
       "#交流会",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/PScitex_325_44&ved=2ahUKEwiC7L7HwIWTAxUEklYBHR6VJPcQFnoECCAQAQ&usg=AOvVaw0S60UbDxDZQFOSzncD2Gi2",
-    instagramUrl: "なし",
+    twitterUrl: "https://x.com/PScitex_325_44",
+    instagramUrl: "",
   },
   {
     id: 64,
@@ -2033,9 +1918,8 @@ export const CIRCLES = [
       "#競技ポーカー",
       "#GGPoker",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/Y_nutspokerclub&ved=2ahUKEwiR-5TQwIWTAxVfsVYBHee9LRkQFnoECB8QAQ&usg=AOvVaw19hOIUSx7_-4H0VL9ClegR",
-    instagramUrl: "なし",
+    twitterUrl: "https://x.com/Y_nutspokerclub",
+    instagramUrl: "",
   },
   {
     id: 65,
@@ -2064,9 +1948,8 @@ export const CIRCLES = [
       "#リアル麻雀",
       "#役満",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/YNU_Mahjong&ved=2ahUKEwj2qoDdwIWTAxVvsVYBHSpMAUEQFnoECCEQAQ&usg=AOvVaw2aai5a6H_kYc27ddiXX76J",
-    instagramUrl: "なし",
+    twitterUrl: "https://x.com/YNU_Mahjong",
+    instagramUrl: "",
   },
   {
     id: 66,
@@ -2095,10 +1978,8 @@ export const CIRCLES = [
       "#友達作り",
       "#心理戦",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/Loup_Garou_ynu&ved=2ahUKEwjq2f7kwIWTAxXFqVYBHSmVBTEQFnoECBwQAQ&usg=AOvVaw3ugLB1f7j1uqKDB4-V3g3h",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/loup_garou_ynu/&ved=2ahUKEwjq2f7kwIWTAxXFqVYBHSmVBTEQFnoECCIQAQ&usg=AOvVaw2BpilDEuvWJ1jlWFJn-ets",
+    twitterUrl: "https://x.com/Loup_Garou_ynu",
+    instagramUrl: "https://www.instagram.com/loup_garou_ynu/",
   },
   {
     id: 67,
@@ -2127,10 +2008,8 @@ export const CIRCLES = [
       "#友達作り",
       "#日本文化",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/yokokoku_chaken&ved=2ahUKEwjS1sudwYWTAxV7rlYBHfx9OscQFnoECCEQAQ&usg=AOvVaw20w6Z3_PMqIRGn1GdxjBGk",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/yokokoku_chaken/&ved=2ahUKEwjS1sudwYWTAxV7rlYBHfx9OscQFnoECCAQAQ&usg=AOvVaw2PuQWQ3Aaq0JnPNzQ5102X",
+    twitterUrl: "https://x.com/yokokoku_chaken",
+    instagramUrl: "https://www.instagram.com/yokokoku_chaken/",
   },
   {
     id: 68,
@@ -2159,10 +2038,8 @@ export const CIRCLES = [
       "#表現力",
       "#チームワーク",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/YNU_ModernDance&ved=2ahUKEwip98ukwYWTAxXesFYBHaqqLA8QFnoECCAQAQ&usg=AOvVaw0g0zDCWSNhzgStsfjtsbqS",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_moderndance/&ved=2ahUKEwip98ukwYWTAxXesFYBHaqqLA8QFnoECCIQAQ&usg=AOvVaw2z1EzBKGmBQjFbyFQq_K0Z",
+    twitterUrl: "https://x.com/YNU_ModernDance",
+    instagramUrl: "https://www.instagram.com/ynu_moderndance/",
   },
   {
     id: 69,
@@ -2191,10 +2068,8 @@ export const CIRCLES = [
       "#圧倒的青春",
       "#公演",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/liz2024xx%3Flang%3Dja&ved=2ahUKEwjf3vWqwYWTAxXFkVYBHamQFwkQFnoECCQQAQ&usg=AOvVaw3G7IfQd1jhZvB1W8SKV8NO",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/liz2026xx/&ved=2ahUKEwjf3vWqwYWTAxXFkVYBHamQFwkQFnoECB0QAQ&usg=AOvVaw23kkc_jlVlEOZCaxOOHvDz",
+    twitterUrl: "https://x.com/liz2024xx?lang=ja",
+    instagramUrl: "https://www.instagram.com/liz2026xx/",
   },
   {
     id: 70,
@@ -2223,10 +2098,8 @@ export const CIRCLES = [
       "#ステージ",
       "#推し活",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/popcorn_ynu&ved=2ahUKEwje-cCwwYWTAxU2sFYBHcp4ANIQFnoECB0QAQ&usg=AOvVaw0q6dLx59AmXmIH1iGiejzv",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/popcorn_ynu/&ved=2ahUKEwje-cCwwYWTAxU2sFYBHcp4ANIQFnoECB8QAQ&usg=AOvVaw2j76195pqQlYzxT-2Rn_LI",
+    twitterUrl: "https://x.com/popcorn_ynu",
+    instagramUrl: "https://www.instagram.com/popcorn_ynu/",
   },
   {
     id: 71,
@@ -2255,10 +2128,8 @@ export const CIRCLES = [
       "#友達作り",
       "#創作",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynueiken&ved=2ahUKEwjzk5e2wYWTAxW6k1YBHYDoC88QFnoECBsQAQ&usg=AOvVaw3DA2g5LZk0WCHqC-A0PvnY",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynueiken/&ved=2ahUKEwjzk5e2wYWTAxW6k1YBHYDoC88QFnoECB0QAQ&usg=AOvVaw2-8sfdrpfeoULKkTKXbL4X",
+    twitterUrl: "https://x.com/ynueiken",
+    instagramUrl: "https://www.instagram.com/ynueiken/",
   },
   {
     id: 72,
@@ -2287,10 +2158,8 @@ export const CIRCLES = [
       "#友達作り",
       "#ユーモア",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_owarai_wkb&ved=2ahUKEwjR2Z68wYWTAxVBsVYBHZGpKGIQFnoECBwQAQ&usg=AOvVaw2sqoWk-ZVK6kCd0zrpKFFJ",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu.wakaba.owarai/&ved=2ahUKEwjR2Z68wYWTAxVBsVYBHZGpKGIQFnoECCIQAQ&usg=AOvVaw359AhaUSt9xKwqtPi0Pn3d",
+    twitterUrl: "https://x.com/ynu_owarai_wkb",
+    instagramUrl: "https://www.instagram.com/ynu.wakaba.owarai/",
   },
   {
     id: 73,
@@ -2319,10 +2188,8 @@ export const CIRCLES = [
       "#伝統",
       "#友達作り",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynumikadukiza&ved=2ahUKEwjy5onEwYWTAxUXrlYBHeG6MeQQFnoECCwQAQ&usg=AOvVaw3G9eYy340vbvzdtge2MrrR",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/gekidanmikadukiza/&ved=2ahUKEwjy5onEwYWTAxUXrlYBHeG6MeQQFnoECCQQAQ&usg=AOvVaw3P_yHVELPuBVh_4h4NKIOX",
+    twitterUrl: "https://x.com/ynumikadukiza",
+    instagramUrl: "https://www.instagram.com/gekidanmikadukiza/",
   },
   {
     id: 74,
@@ -2351,10 +2218,8 @@ export const CIRCLES = [
       "#散歩",
       "#創作",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynuphoto&ved=2ahUKEwj1o9PHwYWTAxVqp1YBHb11HM4QFnoECCAQAQ&usg=AOvVaw3fEn4v1GjcntebKqWXtKdZ",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_photo/&ved=2ahUKEwj1o9PHwYWTAxVqp1YBHb11HM4QFnoECB0QAQ&usg=AOvVaw20fHheC323NKQsq53cV8Mn",
+    twitterUrl: "https://x.com/ynuphoto",
+    instagramUrl: "https://www.instagram.com/ynu_photo/",
   },
   {
     id: 75,
@@ -2383,10 +2248,8 @@ export const CIRCLES = [
       "#友達作り",
       "#芸術",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynueyebrows&ved=2ahUKEwjz0anNwYWTAxWmklYBHRiwB5kQFnoECB8QAQ&usg=AOvVaw1Qnqe1CFv0jrLAyQ85ygvc",
-    instagramUrl:
-      "www.instagram.com/2026eyebrows_ynu?igsh=d3VlNWJoNThttps://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynueyebrows&ved=2ahUKEwjz0anNwYWTAxWmklYBHRiwB5kQFnoECB8QAQ&usg=AOvVaw1Qnqe1CFv0jrLAyQ85ygvcRhN3Qy",
+    twitterUrl: "https://x.com/ynueyebrows",
+    instagramUrl: "",
   },
   {
     id: 76,
@@ -2415,8 +2278,7 @@ export const CIRCLES = [
       "#キャンパスライフ",
       "#友達作り",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/YNU_genshiken&ved=2ahUKEwjSjorgwYWTAxVis1YBHSw0KdAQFnoECCMQAQ&usg=AOvVaw1mpp5GFQx-aMf4G40RhCQO",
+    twitterUrl: "https://x.com/YNU_genshiken",
     instagramUrl: "",
   },
   {
@@ -2446,10 +2308,8 @@ export const CIRCLES = [
       "#趣味",
       "#友達作り",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynurtc&ved=2ahUKEwjMvc7-wYWTAxU1k1YBHWRKI2oQFnoECB4QAQ&usg=AOvVaw2T2Qq4G5ZwizRZb9pOvF0n",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynurtc/&ved=2ahUKEwjMvc7-wYWTAxU1k1YBHWRKI2oQFnoECCgQAQ&usg=AOvVaw0-eU5Y3fjeEuacTeOUqLCh",
+    twitterUrl: "https://x.com/ynurtc",
+    instagramUrl: "https://www.instagram.com/ynurtc/",
   },
   {
     id: 78,
@@ -2478,8 +2338,8 @@ export const CIRCLES = [
       "#友達作り",
       "#知的好奇心",
     ],
-    twitterUrl: "なし",
-    instagramUrl: "なし",
+    twitterUrl: "",
+    instagramUrl: "",
   },
   {
     id: 79,
@@ -2508,8 +2368,8 @@ export const CIRCLES = [
       "#集中力",
       "#友達作り",
     ],
-    twitterUrl: "なし",
-    instagramUrl: "なし",
+    twitterUrl: "",
+    instagramUrl: "",
   },
   {
     id: 80,
@@ -2538,10 +2398,8 @@ export const CIRCLES = [
       "#夢の国",
       "#趣味サークル",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ydk_ynudisney&ved=2ahUKEwjX-YKdwoWTAxXHrlYBHQQLPTsQFnoECCQQAQ&usg=AOvVaw2SEV-29StlYCpxkhjHyxy3",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ydk.ynu.disney/&ved=2ahUKEwjX-YKdwoWTAxXHrlYBHQQLPTsQFnoECCYQAQ&usg=AOvVaw15lcpd50SOPRWebPY60mf0",
+    twitterUrl: "https://x.com/ydk_ynudisney",
+    instagramUrl: "https://www.instagram.com/ydk.ynu.disney/",
   },
   {
     id: 81,
@@ -2570,10 +2428,8 @@ export const CIRCLES = [
       "#DTM",
       "#オタク文化",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/YNUCLz&ved=2ahUKEwiblNWhwoWTAxUYrlYBHYMWA4sQFnoECCYQAQ&usg=AOvVaw0lBp43rP7fedYlNE5iWJxh",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynucl_gram/&ved=2ahUKEwiblNWhwoWTAxUYrlYBHYMWA4sQFnoECCIQAQ&usg=AOvVaw1hvmbjcx6UaEUnu1IMXi0V",
+    twitterUrl: "https://x.com/YNUCLz",
+    instagramUrl: "https://www.instagram.com/ynucl_gram/",
   },
   {
     id: 82,
@@ -2601,9 +2457,8 @@ export const CIRCLES = [
       "#友達作り",
       "#食文化",
     ],
-    twitterUrl: "なし",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_udon/&ved=2ahUKEwjut4GlwoWTAxUzslYBHc5tAG0QFnoECCEQAQ&usg=AOvVaw0KVrBiCOmoqFBfLvfFnK4f",
+    twitterUrl: "",
+    instagramUrl: "https://www.instagram.com/ynu_udon/",
   },
   {
     id: 83,
@@ -2632,9 +2487,8 @@ export const CIRCLES = [
       "#キャンパスニュース",
       "#記録",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_np_&ved=2ahUKEwj41Jy3woWTAxVaqFYBHUYYLzMQFnoECCAQAQ&usg=AOvVaw2BaZ7l6R28jPYOGWsiUj4G",
-    instagramUrl: "なし",
+    twitterUrl: "https://x.com/ynu_np_",
+    instagramUrl: "",
   },
   {
     id: 84,
@@ -2663,10 +2517,8 @@ export const CIRCLES = [
       "#声優",
       "#メディア",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynuferris_hk&ved=2ahUKEwjitIHAwoWTAxUJh1YBHSTpNFMQFnoECCQQAQ&usg=AOvVaw2OdklKDtD7qLfUTx6iPQZp",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_fu_houken/&ved=2ahUKEwjitIHAwoWTAxUJh1YBHSTpNFMQFnoECB0QAQ&usg=AOvVaw0s7oPEt_MwT6rlOjgEvhPy",
+    twitterUrl: "https://x.com/ynuferris_hk",
+    instagramUrl: "https://www.instagram.com/ynu_fu_houken/",
   },
   {
     id: 85,
@@ -2695,10 +2547,8 @@ export const CIRCLES = [
       "#達成感",
       "#友達作り",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_fes&ved=2ahUKEwiol-nEwoWTAxVlmlYBHRkGDXYQFnoECB4QAQ&usg=AOvVaw2nmpsspQNl30wBcyid4DOu",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_fes/&ved=2ahUKEwiol-nEwoWTAxVlmlYBHRkGDXYQFnoECCoQAQ&usg=AOvVaw2fPP29d2Xrmy2uFdq1oK2O",
+    twitterUrl: "https://x.com/ynu_fes",
+    instagramUrl: "https://www.instagram.com/ynu_fes/",
   },
   {
     id: 86,
@@ -2727,9 +2577,8 @@ export const CIRCLES = [
       "#届出団体",
       "#多文化",
     ],
-    twitterUrl: "なし",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu105/&ved=2ahUKEwjglo3OwoWTAxUkrlYBHRxkBaUQFnoECCYQAQ&usg=AOvVaw2Ikhxi01OAZs91bGUWL-iX",
+    twitterUrl: "",
+    instagramUrl: "https://www.instagram.com/ynu105/",
   },
   {
     id: 87,
@@ -2758,10 +2607,8 @@ export const CIRCLES = [
       "#届出団体",
       "#多文化",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynuisl&ved=2ahUKEwj1lNfcwoWTAxXh4zQHHTK7GBEQFnoECBUQAQ&usg=AOvVaw31J5TAS_UiV0zRq5gbv8lm",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_isl/&ved=2ahUKEwj1lNfcwoWTAxXh4zQHHTK7GBEQFnoECBgQAQ&usg=AOvVaw3kBYdONFJJaThKk5PURXvK",
+    twitterUrl: "https://x.com/ynuisl",
+    instagramUrl: "https://www.instagram.com/ynu_isl/",
   },
   {
     id: 88,
@@ -2790,10 +2637,8 @@ export const CIRCLES = [
       "#友達作り",
       "#スキルアップ",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynuess&ved=2ahUKEwjG69DiwoWTAxUYsFYBHWJRHvUQFnoECCsQAQ&usg=AOvVaw2OldslOrNFQWVC4nfKS-d8",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynuess2025/&ved=2ahUKEwjG69DiwoWTAxUYsFYBHWJRHvUQFnoECB8QAQ&usg=AOvVaw2qTTtFFwHazpg8ne-gu1gG",
+    twitterUrl: "https://x.com/ynuess",
+    instagramUrl: "https://www.instagram.com/ynuess2025/",
   },
   {
     id: 89,
@@ -2822,9 +2667,8 @@ export const CIRCLES = [
       "#友達作り",
       "#アジア",
     ],
-    twitterUrl: "なし",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_ksa/&ved=2ahUKEwiMlunmwoWTAxU3sVYBHbOxPNEQFnoECCYQAQ&usg=AOvVaw00OUG1JRDtlBnDEx7Kkwwv",
+    twitterUrl: "",
+    instagramUrl: "https://www.instagram.com/ynu_ksa/",
   },
   {
     id: 90,
@@ -2853,10 +2697,8 @@ export const CIRCLES = [
       "#真面目",
       "#金融",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_ykk&ved=2ahUKEwidxu_vwoWTAxWM2jQHHZv5A4oQFnoECCMQAQ&usg=AOvVaw0EnJn9AS_vv-9ivVSrcWCg",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_ykk/&ved=2ahUKEwidxu_vwoWTAxWM2jQHHZv5A4oQFnoECCUQAQ&usg=AOvVaw3IcU1Si4aKoiP0pJe34W3Q",
+    twitterUrl: "https://x.com/ynu_ykk",
+    instagramUrl: "https://www.instagram.com/ynu_ykk/",
   },
   {
     id: 91,
@@ -2885,10 +2727,8 @@ export const CIRCLES = [
       "#勉強会",
       "#FX",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/YNUCapital&ved=2ahUKEwju6vbzwoWTAxVuqFYBHcDBD8oQFnoECB4QAQ&usg=AOvVaw2Ye7K5PBM43jFH89YbtRlV",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/yokohama_national_university/&ved=2ahUKEwju6vbzwoWTAxVuqFYBHcDBD8oQFnoECB8QAQ&usg=AOvVaw2uPLLIxlt_ad8KJOBIQoSV",
+    twitterUrl: "https://x.com/YNUCapital",
+    instagramUrl: "https://www.instagram.com/yokohama_national_university/",
   },
   {
     id: 92,
@@ -2918,8 +2758,7 @@ export const CIRCLES = [
       "#プレゼン",
     ],
     twitterUrl: "https://x.com/ynu_kigyo",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu__kigyo/&ved=2ahUKEwjezbv4woWTAxX4hlYBHaGAD4IQFnoECCIQAQ&usg=AOvVaw3PYkfCRWt7xsQWkFvRpDpj",
+    instagramUrl: "https://www.instagram.com/ynu__kigyo/",
   },
   {
     id: 93,
@@ -2948,9 +2787,8 @@ export const CIRCLES = [
       "#常盤祭",
       "#学生団体",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/kokumonken&ved=2ahUKEwinjumLw4WTAxV-sFYBHWmjCu4QFnoECCIQAQ&usg=AOvVaw1OGe1ZB1q-9gOcfc5NxFYn",
-    instagramUrl: "なし",
+    twitterUrl: "https://x.com/kokumonken",
+    instagramUrl: "",
   },
   {
     id: 94,
@@ -2979,10 +2817,8 @@ export const CIRCLES = [
       "#常盤祭",
       "#アントレプレナーシップ",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_ybcyac_2025&ved=2ahUKEwj0-beTw4WTAxWdklYBHfXWNm8QFnoECBsQAQ&usg=AOvVaw1joM6BUA7ujDkyv5un2cOE",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_ybcyac_2025/&ved=2ahUKEwj0-beTw4WTAxWdklYBHfXWNm8QFnoECBoQAQ&usg=AOvVaw3b0X66FXViskEw-J-Z0Fdl",
+    twitterUrl: "https://x.com/ynu_ybcyac_2025",
+    instagramUrl: "https://www.instagram.com/ynu_ybcyac_2025/",
   },
   {
     id: 95,
@@ -3011,8 +2847,8 @@ export const CIRCLES = [
       "#社会貢献",
       "#研究",
     ],
-    twitterUrl: "なし",
-    instagramUrl: "なし",
+    twitterUrl: "",
+    instagramUrl: "",
   },
   {
     id: 96,
@@ -3041,10 +2877,8 @@ export const CIRCLES = [
       "#プロジェクト学習",
       "#常盤祭",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/CORE_Rocket&ved=2ahUKEwjE9KClw4WTAxV0rlYBHXKiAQAQFnoECCYQAQ&usg=AOvVaw1o9cWbKsjcIwmckKR97A9y",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/p/DIbhFOozJOM/&ved=2ahUKEwj1us6pw4WTAxVBr1YBHbNZJGMQFnoECBsQAQ&usg=AOvVaw0fJmXTQ4tMrMlXRLSgCfE6",
+    twitterUrl: "https://x.com/CORE_Rocket",
+    instagramUrl: "https://www.instagram.com/p/DIbhFOozJOM/",
   },
   {
     id: 97,
@@ -3073,10 +2907,8 @@ export const CIRCLES = [
       "#琵琶湖",
       "#スカイスポーツ",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_birdman&ved=2ahUKEwjKjaitw4WTAxXis1YBHQMbGFAQFnoECB8QAQ&usg=AOvVaw0UAUMjrV1jPUCi6xjMJ7lp",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_aerospace/&ved=2ahUKEwjKjaitw4WTAxXis1YBHQMbGFAQFnoECCAQAQ&usg=AOvVaw2a0Dkew_HV8KUb2ECh5p7j",
+    twitterUrl: "https://x.com/ynu_birdman",
+    instagramUrl: "https://www.instagram.com/ynu_aerospace/",
   },
   {
     id: 98,
@@ -3105,9 +2937,8 @@ export const CIRCLES = [
       "#理系",
       "#文系",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/YNU_MSC&ved=2ahUKEwil2623w4WTAxVcqFYBHd-6EpgQFnoECB8QAQ&usg=AOvVaw0fhzjfHyaAGskmXeJZHcxU",
-    instagramUrl: "なし",
+    twitterUrl: "https://x.com/YNU_MSC",
+    instagramUrl: "",
   },
   {
     id: 99,
@@ -3136,10 +2967,8 @@ export const CIRCLES = [
       "#チーム開発",
       "#常盤祭",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynfp_fsae&ved=2ahUKEwj-peDBw4WTAxUkrlYBHRxkBaUQFnoECB0QAQ&usg=AOvVaw1uCEfzXPAYYafOz12X6vrd",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynfp_fsae/&ved=2ahUKEwil2623w4WTAxVcqFYBHd-6EpgQFnoECCIQAQ&usg=AOvVaw35eXayM7ba-SdpaWjfFGA1",
+    twitterUrl: "https://x.com/ynfp_fsae",
+    instagramUrl: "https://www.instagram.com/ynfp_fsae/",
   },
   {
     id: 100,
@@ -3168,8 +2997,8 @@ export const CIRCLES = [
       "#試乗会",
       "#常盤祭",
     ],
-    twitterUrl: "なし",
-    instagramUrl: "なし",
+    twitterUrl: "",
+    instagramUrl: "",
   },
   {
     id: 101,
@@ -3198,10 +3027,8 @@ export const CIRCLES = [
       "#機械工学",
       "#チーム開発",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/Roboism&ved=2ahUKEwju1Y6LxIWTAxUVqVYBHUedN5EQFnoECCQQAQ&usg=AOvVaw1gLg3OYVsXrEvRbYlEvQMi",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_robo.ism/&ved=2ahUKEwj18JeOxIWTAxVSr1YBHTD5ARMQFnoECCIQAQ&usg=AOvVaw03msHIfnwE2rYkmooGi9Dc",
+    twitterUrl: "https://x.com/Roboism",
+    instagramUrl: "https://www.instagram.com/ynu_robo.ism/",
   },
   {
     id: 102,
@@ -3230,8 +3057,7 @@ export const CIRCLES = [
       "#情報工学",
       "#知的人的交流",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_cpc&ved=2ahUKEwjnotqTxIWTAxU48DQHHb90B0wQFnoECBwQAQ&usg=AOvVaw2NuXyciC7I4mk2M09mKSRU",
+    twitterUrl: "https://x.com/ynu_cpc",
     instagramUrl: "",
   },
   {
@@ -3261,10 +3087,8 @@ export const CIRCLES = [
       "#交流イベント",
       "#常盤祭",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/lumos_program/status/1902920051323535851&ved=2ahUKEwjOn_CaxIWTAxXRklYBHYVmE3cQFnoECB0QAQ&usg=AOvVaw3cycwVcwF7AeJmjZs9RHGn",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/lumos_programming/%3Fhl%3Dja&ved=2ahUKEwjOn_CaxIWTAxXRklYBHYVmE3cQFnoECBwQAQ&usg=AOvVaw3ZV6wH_Pjnq14qYqQ0olsy",
+    twitterUrl: "https://x.com/lumos_program/status/1902920051323535851",
+    instagramUrl: "https://www.instagram.com/lumos_programming/?hl=ja",
   },
   {
     id: 104,
@@ -3293,10 +3117,8 @@ export const CIRCLES = [
       "#写真",
       "#まったり",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_neko&ved=2ahUKEwj3gJSkxIWTAxV7klYBHQD-JdUQFnoECCwQAQ&usg=AOvVaw2r8ChBIUMrao5wzLMbj3q4",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_neko/&ved=2ahUKEwj3gJSkxIWTAxV7klYBHQD-JdUQFnoECB8QAQ&usg=AOvVaw1G1kQu-JEVJ5_kkTfFkmBE",
+    twitterUrl: "https://x.com/ynu_neko",
+    instagramUrl: "https://www.instagram.com/ynu_neko/",
   },
   {
     id: 105,
@@ -3325,9 +3147,8 @@ export const CIRCLES = [
       "#試行錯誤",
       "#知識欲",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_integral%3Flang%3Dga&ved=2ahUKEwif68ysq42TAxWeklYBHTKvH8QQFnoECB0QAQ&usg=AOvVaw0Q3iQLC0o0EagU4ScB-eYX",
-    instagramUrl: "なし",
+    twitterUrl: "https://x.com/ynu_integral?lang=ga",
+    instagramUrl: "",
   },
   {
     id: 106,
@@ -3356,9 +3177,8 @@ export const CIRCLES = [
       "#大学生活",
       "#学術",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/Kirin__ynu&ved=2ahUKEwjl5vDjqo2TAxUznq8BHb0NINAQFnoECCIQAQ&usg=AOvVaw2fs1ONfRPaHkGE4E0qYchY",
-    instagramUrl: "なし",
+    twitterUrl: "https://x.com/Kirin__ynu",
+    instagramUrl: "",
   },
   {
     id: 107,
@@ -3387,9 +3207,8 @@ export const CIRCLES = [
       "#文章",
       "#ニュース",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_np_&ved=2ahUKEwjxxqWYrI2TAxU6r1YBHQ8jLZwQFnoECCAQAQ&usg=AOvVaw2BaZ7l6R28jPYOGWsiUj4G",
-    instagramUrl: "なし",
+    twitterUrl: "https://x.com/ynu_np_",
+    instagramUrl: "",
   },
   {
     id: 108,
@@ -3418,9 +3237,8 @@ export const CIRCLES = [
       "#キャンパスライフ",
       "#経験",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/en2_ynu&ved=2ahUKEwibwcWVtI2TAxXPklYBHcPfK5oQFnoECBoQAQ&usg=AOvVaw0R1bud2bjVZjS3HNNiHrmR",
-    instagramUrl: "なし",
+    twitterUrl: "https://x.com/en2_ynu",
+    instagramUrl: "",
   },
   {
     id: 109,
@@ -3450,7 +3268,7 @@ export const CIRCLES = [
       "#試合",
     ],
     twitterUrl: "https://x.com/ynu_fencing",
-    instagramUrl: "なし",
+    instagramUrl: "",
   },
   {
     id: 110,
@@ -3480,8 +3298,7 @@ export const CIRCLES = [
       "#楽しい",
     ],
     twitterUrl: "https://x.com/YokokokuSpochan",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_shoken_spochan_2026/&ved=2ahUKEwiWj5X3so2TAxUbs1YBHb05DlUQFnoECCQQAQ&usg=AOvVaw1GAMCBYg-a6kcBWA4gPmGs",
+    instagramUrl: "https://www.instagram.com/ynu_shoken_spochan_2026/",
   },
   {
     id: 111,
@@ -3510,7 +3327,7 @@ export const CIRCLES = [
       "#ネットワーキング",
       "#創造",
     ],
-    twitterUrl: "なし",
+    twitterUrl: "",
     instagramUrl: "https://www.instagram.com/ynu__kigyo/",
   },
   {
@@ -3540,10 +3357,8 @@ export const CIRCLES = [
       "#キャンパスライフ",
       "#芸術",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_kenban&ved=2ahUKEwjk5ov3tI2TAxWSFDQIHbCyAK0QFnoECCgQAQ&usg=AOvVaw28U2duPYIm1Xk7I7sCW5h-",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu_kenban/&ved=2ahUKEwjk5ov3tI2TAxWSFDQIHbCyAK0QFnoECBkQAQ&usg=AOvVaw2jjdcqp6LTdeadA6gcT9qB",
+    twitterUrl: "https://x.com/ynu_kenban",
+    instagramUrl: "https://www.instagram.com/ynu_kenban/",
   },
   {
     id: 113,
@@ -3572,10 +3387,8 @@ export const CIRCLES = [
       "#試行錯誤",
       "#知識欲",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/fun_ynu&ved=2ahUKEwjOvvvMtY2TAxXzMjQIHXEWIngQFnoECB0QAQ&usg=AOvVaw31XcB7ob-ZpajRW7iIB_br",
-    instagramUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/ynu.fun/&ved=2ahUKEwjOvvvMtY2TAxXzMjQIHXEWIngQFnoECB4QAQ&usg=AOvVaw1ySICYiFJ-Eamzp1-uINrz",
+    twitterUrl: "https://x.com/fun_ynu",
+    instagramUrl: "https://www.instagram.com/ynu.fun/",
   },
   {
     id: 114,
@@ -3604,8 +3417,8 @@ export const CIRCLES = [
       "#学術",
       "#交流",
     ],
-    twitterUrl: "なし",
-    instagramUrl: "なし",
+    twitterUrl: "",
+    instagramUrl: "",
   },
   {
     id: 115,
@@ -3634,8 +3447,7 @@ export const CIRCLES = [
       "#趣味",
       "#対戦",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/hama_games4559&ved=2ahUKEwjfsdWjxY2TAxWVzzQHHZjxDuYQFnoECAwQAQ&usg=AOvVaw1BqLkr6eU_RVpffuxVlMzR",
+    twitterUrl: "https://x.com/hama_games4559",
     instagramUrl: "",
   },
   {
@@ -3665,8 +3477,7 @@ export const CIRCLES = [
       "#観戦",
       "#キャンパスライフ",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/ynu_yakyuu_suki&ved=2ahUKEwjuwbGpxY2TAxWhslYBHWvuKBoQFnoECCwQAQ&usg=AOvVaw3S9J2EPnxXi43BdkC3I5yV",
+    twitterUrl: "https://x.com/ynu_yakyuu_suki",
     instagramUrl: "",
   },
   {
@@ -4327,8 +4138,7 @@ export const CIRCLES = [
       "#学生団体",
       "#キャンパスライフ",
     ],
-    twitterUrl:
-      "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/25LavishRabbits&ved=2ahUKEwi5173oxY2TAxXyiK8BHanCLwIQFnoECCUQAQ&usg=AOvVaw0YqK4WvVVOxAo5enjV1yMU",
+    twitterUrl: "https://x.com/25LavishRabbits",
     instagramUrl: "",
   },
   {
