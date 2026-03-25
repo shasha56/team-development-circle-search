@@ -1,3 +1,4 @@
+import { Span } from "next/dist/trace";
 import Image from "next/image";
 
 type Props = {
@@ -53,10 +54,11 @@ export const CircleList: React.FC<Props> = ({
               />
             </div>
 
-            {/* タグ・URL エリア */}
+            {/* サークル名・タグ・URL エリア */}
             <div className="ml-5 flex flex-col gap-1 py-2">
               <p className="font-bold text-sm">
-                {circle.name} ({circle.isOfficial})
+                <span>{circle.name}</span>
+                {circle.isOfficial != "" && <span> ({circle.isOfficial})</span>}
               </p>
 
               {/* タグ */}

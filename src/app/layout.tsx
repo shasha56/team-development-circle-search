@@ -4,7 +4,7 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
+const geist = Geist({ subsets: ["latin"], variable: "--font-sans" });
 
 const notoSansJP = Noto_Sans_JP({
   subsets: ["latin"],
@@ -15,6 +15,9 @@ const notoSansJP = Noto_Sans_JP({
 export const metadata: Metadata = {
   title: "横国 サーチる",
   description: "横国サークル検索サイト",
+  icons: {
+    icon: "/icon/rumors_icon.svg",
+  },
 };
 
 export default function RootLayout({
