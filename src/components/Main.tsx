@@ -7,10 +7,9 @@ import { useState } from "react";
 const MOCK_POPULAR_TAGS = [
   "#運動部",
   "#文化部",
-  "#サッカー",
-  "#テニス",
-  "#未経験",
-  "#インターカレッジ",
+  "#部員50人以下",
+  "#部員50-100人",
+  "#部員100人以上",
 ];
 
 export const Main = () => {

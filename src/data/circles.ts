@@ -1404,7 +1404,7 @@ export const CIRCLES: CircleSource[] = [
     iconUrl: "",
     tags: [
       "#文化部",
-      "#部員100-110人",
+      "#部員100人以上",
       "#アカペラ",
       "#歌",
       "#ハーモニー",
@@ -1687,7 +1687,7 @@ export const CIRCLES: CircleSource[] = [
     iconUrl: "",
     tags: [
       "#運動部",
-      "#部員110-120人",
+      "#部員100人以上",
       "#K-POP",
       "#コピーダンス",
       "#ダンス",
@@ -1935,7 +1935,7 @@ export const CIRCLES: CircleSource[] = [
     iconUrl: "",
     tags: [
       "#文化部",
-      "#部員100以上",
+      "#部員100人以上",
       "#YDK",
       "#ディズニー",
       "#TDR",
@@ -2064,7 +2064,7 @@ export const CIRCLES: CircleSource[] = [
     iconUrl: "",
     tags: [
       "#文化部",
-      "#部員100人",
+      "#部員100人以上",
       "#大学祭実行委員会",
       "#学祭",
       "#イベント運営",
@@ -2141,7 +2141,7 @@ export const CIRCLES: CircleSource[] = [
     iconUrl: "",
     tags: [
       "#文化部",
-      "#部員120-130人",
+      "#部員100人以上",
       "#ESS",
       "#英語",
       "#英会話",
@@ -2371,7 +2371,6 @@ export const CIRCLES: CircleSource[] = [
       "#理系",
       "#チーム開発",
       "#プロジェクト学習",
-      
     ],
     twitterUrl: "https://x.com/CORE_Rocket",
     instagramUrl: "https://www.instagram.com/p/DIbhFOozJOM/",
@@ -3386,7 +3385,7 @@ export const CIRCLES: CircleSource[] = [
     iconUrl: "",
     tags: [
       "#文化部",
-      "#部員100-110人",
+      "#部員100人以上",
       "#インターカレッジ",
       "#届出会計士",
       "#簿記",
@@ -3441,7 +3440,7 @@ export const CIRCLES: CircleSource[] = [
     iconUrl: "",
     tags: [
       "#運動部",
-      "#部員130-140人",
+      "#部員100人以上",
       "#バレーボール",
       "#ラビラビ",
       "#初心者歓迎",
@@ -3651,10 +3650,7 @@ export const CIRCLES: CircleSource[] = [
     name: "横浜国立大学徳島県人会",
     isOfficial: "",
     iconUrl: "",
-    tags: [
-      "#徳島県人会",
-      "#徳島",
-    ],
+    tags: ["#徳島県人会", "#徳島"],
     twitterUrl: "https://x.com/awaodori_ynu",
     instagramUrl: "",
   },
