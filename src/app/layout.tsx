@@ -16,7 +16,12 @@ export const metadata: Metadata = {
   title: "横国 サーチる",
   description: "横国サークル検索サイト",
   icons: {
-    icon: "/icon/rumors_icon.svg",
+    icon: [
+      {
+        url: "/icon/rumors_icon.svg",
+        type: "image/svg+xml",
+      },
+    ],
   },
 };
 
